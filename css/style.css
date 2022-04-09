@@ -5,10 +5,14 @@
 }
 
 .style {
-  border-style: solid ;
-  border-color: rgb(12, 1, 1);
-  background-position: center;
-  background-color: rgb(8, 8, 8);
+/*   border-style: solid ;
+ */
+ /*   border-color: rgb(12, 1, 1);
+ */  
+ background-position: center;
+ 
+/*   background-color: rgb(8, 8, 8);
+ */  
   color: white;
   width: auto;
   text-align: center;  
@@ -30,13 +34,14 @@
   text-align: center;
 }
 .inicio main {
-  height: 80vh;
+  height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .menu {
+  margin: 15px;
   text-decoration: none;
   list-style: none;
   display: flex;
@@ -85,10 +90,13 @@
 }
 
 .redes {
-  background-color: black;
-  border-style: groove;
-  border-color: black;
-  list-style: none;
+background-color: black;
+
+border-style: groove;
+ 
+border-color: black;
+ 
+ list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
