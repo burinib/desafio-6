@@ -5,18 +5,17 @@
 }
 
 .style {
-/*   border-style: solid ;
+  /*   border-style: solid ;
  */
- /*   border-color: rgb(12, 1, 1);
- */  
- background-position: center;
- 
-/*   background-color: rgb(8, 8, 8);
- */  
+  /*   border-color: rgb(12, 1, 1);
+ */
+  background-position: center;
+
+  /*   background-color: rgb(8, 8, 8);
+ */
   color: white;
   width: auto;
-  text-align: center;  
-  
+  text-align: center;
 }
 
 .inicio {
@@ -24,10 +23,15 @@
   background-size: cover;
   min-height: 100vh;
 }
+.inicio .inicio__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
 .inicio h1 {
   display: flex;
   justify-content: center;
-  
 }
 .inicio h2 {
   color: white;
@@ -38,6 +42,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.inicio__nav {
+  width: 60%;
 }
 
 .menu {
@@ -70,6 +77,7 @@
 .menuDesplegable {
   display: none;
   position: absolute;
+  z-index: 100;
 }
 
 .menuDesplegable li {
@@ -89,19 +97,23 @@
   display: block;
 }
 
-.redes {
-background-color: black;
+.main__logo {
+  animation: main__logo 4s timing-function delay iteration-count direction
+    fill-mode;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+@keyframes main__logo {
+}
 
-border-style: groove;
- 
-border-color: black;
- 
- list-style: none;
+.redes {
+  background-color: black;
+  border-style: groove;
+  border-color: black;
+  list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  /*   width: 100%;
- */
 }
 
 .redes p {
@@ -113,10 +125,10 @@ border-color: black;
 
 .nosotros {
   background-image: url(../assets/images/fondo/fondoindex.jpg);
-  background-size: cover;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
-  min-height: 100VH;
+  min-height: 100vh;
 }
 .nosotros h1 {
   color: white;
@@ -237,8 +249,6 @@ border-color: black;
   text-align: center;
   background-color: black;
   color: white;
- 
-
 }
 
 .envios p {
@@ -262,7 +272,6 @@ border-color: black;
   border-color: white;
   border-style: double;
   background-color: black;
-
 }
 .envioscu table tbody {
   background-color: black;
@@ -283,7 +292,6 @@ border-color: black;
   justify-content: space-between;
 }
 
-
 .contacto p {
   font-size: 20px;
   margin: auto;
@@ -297,4 +305,23 @@ border-color: black;
 
 .contacto fieldset {
   padding: 10px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  .inicio .inicio__header {
+   flex-direction: column;
+   align-items: center;
+  }
+  .inicio__nav{
+    width: 100%;
+  }
+  .nosotros  {
+    background-size: 100%;
+  }
+.container {
+  background-size: 100%;
+}
+.contacto {
+  background-size: 100%;
+
 }
