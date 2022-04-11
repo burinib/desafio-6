@@ -97,13 +97,13 @@
   display: block;
 }
 
-.main__logo {
-  animation: main__logo 4s timing-function delay iteration-count direction
+.imageMain {
+  animation:imageMain 4s timing-function delay iteration-count direction
     fill-mode;
   animation-duration: 4s;
   animation-delay: 1s;
 }
-@keyframes main__logo {
+@keyframes imageMain {
 }
 
 .redes {
@@ -140,7 +140,7 @@
   padding: auto;
   margin: auto;
 }
-.img {
+ .nosotros .texto .img {
   display: flex;
   justify-content: center;
   max-height: 100%;
