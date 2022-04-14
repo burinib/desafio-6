@@ -3,7 +3,12 @@
   padding: 0;
   font-family: "Nanum Gothic", sans-serif;
 }
-
+ul,
+ol,
+dl {
+  padding: 0px !important;
+  margin: 0px;
+}
 .style {
   /*   border-style: solid ;
  */
@@ -18,66 +23,69 @@
   text-align: center;
 }
 
-.inicio {
+.bodyContainer {
   background-image: url(../assets/images/fondo/fondoindex.jpg);
   background-size: cover;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.inicio .inicio__header {
+.bodyContainer .bodyContainer__header {
   display: flex;
   justify-content: space-between;
   padding: 15px;
 }
+.navbar-collapse {
+  justify-content: end;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 
-.inicio h1 {
+.bodyContainer h1 {
   display: flex;
   justify-content: center;
 }
-.inicio h2 {
+.bodyContainer h2 {
   color: white;
   text-align: center;
 }
-.inicio main {
-  height: 75vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.inicio__nav {
+.bodyContainer__nav {
   width: 60%;
 }
 
 .menu {
-  margin: 15px;
   text-decoration: none;
   list-style: none;
-  display: flex;
-  justify-content: space-around;
-  text-transform: uppercase;
-  font-size: 14px;
+  font-size: 1.3rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
 }
-
-.menu a {
-  height: 15px;
-  color: white;
-  text-decoration: none;
+.menu__bahia {
+  font-size: 1.3rem;
 }
-
 .submenu ul li a {
   color: white;
   text-decoration: none;
-  justify-content: center;
   height: 100%;
   width: 100%;
-  align-items: center;
   padding: 0;
-  text-transform: none;
+  margin: 0px;
+  font-size: 1rem;
+  padding-inline: 0.5rem;
 }
 
 .menuDesplegable {
   display: none;
   position: absolute;
   z-index: 100;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .menuDesplegable li {
@@ -93,12 +101,11 @@
 }
 
 .submenu:hover > ul {
-  /* identifica el paso del mouse */
   display: block;
 }
 
 .imageMain {
-  animation:imageMain 4s timing-function delay iteration-count direction
+  animation: imageMain 4s timing-function delay iteration-count direction
     fill-mode;
   animation-duration: 4s;
   animation-delay: 1s;
@@ -106,48 +113,45 @@
 @keyframes imageMain {
 }
 
-.redes {
-  background-color: black;
-  border-style: groove;
-  border-color: black;
-  list-style: none;
+.footer {
   display: flex;
-  align-items: center;
   justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
 }
-
-.redes p {
-  color: rgb(223, 206, 206);
+.footer .footer__redes {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
-.redes img {
-  margin: 0px 10px;
+.footer .footer__redes li {
+  list-style: none;
 }
 
 .nosotros {
   background-image: url(../assets/images/fondo/fondoindex.jpg);
   background-size: 100%;
-  display: flex;
+  display: fYour site is ready to be published atlex;
   flex-direction: column;
   min-height: 100vh;
 }
-.nosotros h1 {
+.texto h1 {
   color: white;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
 }
-.nosotros p {
+.texto p {
   color: white;
   padding: auto;
   margin: auto;
 }
- .nosotros .texto .img {
+.texto .img {
   display: flex;
   justify-content: center;
   max-height: 100%;
 }
 
 .abrigo {
-  background-image: url(../assets/images/fondo/playarec.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
@@ -169,7 +173,6 @@
   height: 250px;
 }
 .camisas {
-  background-image: url(../assets/images/fondo/playarec.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
@@ -190,14 +193,11 @@
   height: 250px;
 }
 .pantalones {
-  background-image: url(../assets/images/fondo/playarec.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  min-height: s 100vh;
+  display: block !important;
 }
 .pantalones .images {
   padding: 5px;
@@ -212,7 +212,6 @@
 }
 
 .remera {
-  background-image: url(../assets/images/fondo/playarec.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
@@ -233,7 +232,7 @@
   width: 100%;
   height: 250px;
 }
-.container {
+.container__envios {
   background-image: url(../assets/images/fondo/fondoindex.jpg);
   min-height: 90vh;
   background-size: cover;
@@ -307,21 +306,14 @@
   padding: 10px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 800px) {
-  .inicio .inicio__header {
-   flex-direction: column;
-   align-items: center;
+@media screen and (min-width: 0px) and (max-width: 990px) {
+  .bodyContainer .bodyContainer__header {
+    flex-direction: column;
+    align-items: center;
   }
-  .inicio__nav{
-    width: 100%;
+  .menuDesplegable {
+    left: 125px;
+    top: 150px;
+    display: none;
   }
-  .nosotros  {
-    background-size: 100%;
-  }
-.container {
-  background-size: 100%;
-}
-.contacto {
-  background-size: 100%;
-
 }
