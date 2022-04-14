@@ -133,7 +133,9 @@ dl {
   background-size: 100%;
   display: fYour site is ready to be published atlex;
   flex-direction: column;
-  min-height: 100vh;
+  align-items: center;
+  min-height: 20vh;
+  ;
 }
 .texto h1 {
   color: white;
@@ -150,6 +152,11 @@ dl {
   justify-content: center;
   max-height: 100%;
 }
+.titulo .inicio__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
 
 .abrigo {
   text-align-last: center;
@@ -159,6 +166,11 @@ dl {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.abrigo .inicio__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
 }
 .abrigo .images {
   padding: 5px;
@@ -277,8 +289,15 @@ dl {
   border-color: rgb(102, 71, 36);
   color: white;
 }
+.contacto .inicio__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: red;
+    background-image: url(../assets/images/fondo/fondoindex.jpg);
+}
 
-.contacto {
+.contactanos {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -289,8 +308,8 @@ dl {
   color: white;
   width: 100%;
   justify-content: space-between;
+  padding: 25px;
 }
-
 .contacto p {
   font-size: 20px;
   margin: auto;
