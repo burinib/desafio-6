@@ -288,7 +288,6 @@ dl {
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  background-color: red;
     background-image: url(../assets/images/fondo/fondoindex.jpg);
 }
 
@@ -322,10 +321,10 @@ dl {
 .contacto fieldset {
   padding: 10px;
 }
-.contacto fieldset button, input, optgroup, select, textarea {
+button, input, optgroup, select, textarea {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  {
+  }
 
 
 @media screen and (min-width: 0px) and (max-width: 990px) {
@@ -337,5 +336,5 @@ dl {
     left: 125px;
     top: 150px;
     display: none;
-  }
-}
+ }
+ }
