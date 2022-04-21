@@ -3,12 +3,14 @@
   padding: 0;
   font-family: "Nanum Gothic", sans-serif;
 }
+
 ul,
 ol,
 dl {
   padding: 0px !important;
   margin: 0px;
 }
+
 .style {
   background-position: center;
   color: white;
@@ -20,37 +22,61 @@ dl {
   background-image: url(../assets/images/fondo/fondoindex.jpg);
   background-size: cover;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .bodyContainer .bodyContainer__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 15px;
-}
-.navbar-collapse {
-  justify-content: end;
-}
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-}
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
 }
 
 .bodyContainer h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .bodyContainer h2 {
   color: white;
   text-align: center;
 }
-.bodyContainer__nav {
+
+.bodyContainer .bodyContainer__nav {
   width: 60%;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .menu {
@@ -60,9 +86,11 @@ dl {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 1rem;
 }
+
 .menu__bahia {
   font-size: 1.3rem;
 }
+
 .submenu ul li a {
   color: white;
   text-decoration: none;
@@ -85,6 +113,7 @@ dl {
   padding: 5px 0px;
   list-style: none;
 }
+
 .menuDesplegable li:hover {
   background-color: white;
 }
@@ -98,25 +127,36 @@ dl {
 }
 
 .imageMain {
-  animation: imageMain 4s timing-function delay iteration-count direction
-    fill-mode;
-  animation-duration: 4s;
-  animation-delay: 1s;
-}
-@keyframes imageMain {
+  -webkit-animation: imageMain 4s timing-function delay iteration-count direction fill-mode;
+          animation: imageMain 4s timing-function delay iteration-count direction fill-mode;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
-.footer {
+@-webkit-keyframes imageMain {}
+
+@keyframes imageMain {}.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.5rem;
 }
+
 .footer .footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 50%;
 }
+
 .footer .footer__redes li {
   list-style: none;
 }
@@ -125,30 +165,46 @@ dl {
   background-image: url(../assets/images/fondo/fondoindex.jpg);
   background-size: 100%;
   display: fYour site is ready to be published atlex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 20vh;
-  ;
 }
+
 .texto h1 {
   color: white;
   text-align: center;
   text-decoration: none;
 }
+
 .texto p {
   color: white;
   padding: auto;
   margin: auto;
   background-color: rgba(0, 0, 0, 0.6);
 }
+
 .texto .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-height: 100%;
 }
+
 .titulo .inicio__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 15px;
 }
 
@@ -157,20 +213,37 @@ dl {
   color: white;
   background-size: cover;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .abrigo .inicio__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 15px;
 }
+
 .abrigo .images {
   padding: 5px;
+  display: -ms-grid;
   display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: (minmax(255px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
   gap: 10px;
 }
 
@@ -178,26 +251,41 @@ dl {
   width: 100%;
   height: 250px;
 }
+
 .camisas {
   text-align-last: center;
   color: white;
   background-size: cover;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .camisas .images {
   padding: 5px;
+  display: -ms-grid;
   display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: (minmax(255px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
   gap: 10px;
 }
+
 .camisas .images img {
   width: 100%;
   height: 250px;
 }
+
 .pantalones {
   text-align-last: center;
   color: white;
@@ -205,13 +293,19 @@ dl {
   min-height: s 100vh;
   display: block !important;
 }
+
 .pantalones .images {
   padding: 5px;
+  display: -ms-grid;
   display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: (minmax(255px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
   gap: 10px;
 }
+
 .pantalones .images img {
   width: 100%;
   height: 250px;
@@ -222,30 +316,49 @@ dl {
   color: white;
   background-size: cover;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .remera .images {
   padding: 5px;
+  display: -ms-grid;
   display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: (minmax(255px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
   gap: 10px;
 }
+
 .remera .images img {
   width: 100%;
   height: 250px;
 }
+
 .container__envios {
   background-image: url(../assets/images/fondo/fondoindex.jpg);
   min-height: 90vh;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 70px;
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .envios h1 {
@@ -279,31 +392,46 @@ dl {
   border-style: double;
   background-color: black;
 }
+
 .envioscu table tbody {
   background-color: black;
-  border-color: rgb(102, 71, 36);
+  border-color: #664724;
   color: white;
 }
+
 .contacto .inicio__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 15px;
-    background-image: url(../assets/images/fondo/fondoindex.jpg);
+  background-image: url(../assets/images/fondo/fondoindex.jpg);
 }
 
 .contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   background-image: url(../assets/images/fondo/fondoindex.jpg);
-  
   background-size: cover;
   color: white;
   width: 100%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 25px;
 }
+
 .contacto p {
   font-size: 20px;
   margin: auto;
@@ -315,26 +443,34 @@ dl {
   padding: 10px 0px;
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0.6);
-
 }
 
 .contacto fieldset {
   padding: 10px;
 }
-button, input, optgroup, select, textarea {
+
+button,
+input,
+optgroup,
+select,
+textarea {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  }
-
+}
 
 @media screen and (min-width: 0px) and (max-width: 990px) {
   .bodyContainer .bodyContainer__header {
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .menuDesplegable {
     left: 125px;
     top: 150px;
     display: none;
- }
- }
+  }
+}

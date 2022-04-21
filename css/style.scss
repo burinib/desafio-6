@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nanum Gothic", sans-serif;
+}
+ul,
+ol,
+dl {
+  padding: 0px !important;
+  margin: 0px;
+}
+.style {
+  background-position: center;
+  color: white;
+  width: auto;
+  text-align: center;
+}
+
+.bodyContainer {
+  background-image: url(../assets/images/fondo/fondoindex.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .bodyContainer__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  h2 {
+    color: white;
+    text-align: center;
+  }
+  .bodyContainer__nav {
+    width: 60%;
+  }
+}
+.navbar-collapse {
+  justify-content: end;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.menu {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.3rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+.menu__bahia {
+  font-size: 1.3rem;
+}
+.submenu ul li a {
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0px;
+  font-size: 1rem;
+  padding-inline: 0.5rem;
+}
+
+.menuDesplegable {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.6);
+  li {
+    padding: 5px 0px;
+    list-style: none;
+  }
+  li:hover {
+    background-color: white;
+  }
+}
+
+.menuDesplegable li:hover a {
+  color: black;
+}
+
+.submenu:hover > ul {
+  display: block;
+}
+
+.imageMain {
+  animation: imageMain 4s timing-function delay iteration-count direction
+    fill-mode;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+@keyframes imageMain {
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+}
+.footer .footer__redes {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.footer .footer__redes li {
+  list-style: none;
+}
+
+.nosotros {
+  background-image: url(../assets/images/fondo/fondoindex.jpg);
+  background-size: 100%;
+  display: fYour site is ready to be published atlex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 20vh;
+}
+.texto h1 {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.texto p {
+  color: white;
+  padding: auto;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.texto .img {
+  display: flex;
+  justify-content: center;
+  max-height: 100%;
+}
+.titulo .inicio__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.abrigo {
+  text-align-last: center;
+  color: white;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .inicio__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.images {
+  padding: 5px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: 10px;
+}
+.images img {
+  width: 100%;
+  height: 250px;
+}
+}
+
+.camisas {
+  text-align-last: center;
+  color: white;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.camisas .images {
+  padding: 5px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: 10px;
+}
+.camisas .images img {
+  width: 100%;
+  height: 250px;
+}
+.pantalones {
+  text-align-last: center;
+  color: white;
+  background-size: cover;
+  min-height: s 100vh;
+  display: block !important;
+}
+.pantalones .images {
+  padding: 5px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: 10px;
+}
+.pantalones .images img {
+  width: 100%;
+  height: 250px;
+}
+
+.remera {
+  text-align-last: center;
+  color: white;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.remera .images {
+  padding: 5px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: 10px;
+}
+.remera .images img {
+  width: 100%;
+  height: 250px;
+}
+.container__envios {
+  background-image: url(../assets/images/fondo/fondoindex.jpg);
+  min-height: 90vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-content: center;
+}
+
+.envios h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.envios p {
+  margin-top: -10px;
+  margin: 5px;
+  padding: 0;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.envioscu h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.envioscu table {
+  margin: auto;
+  border: double;
+  border-color: white;
+  border-style: double;
+  background-color: black;
+}
+.envioscu table tbody {
+  background-color: black;
+  border-color: rgb(102, 71, 36);
+  color: white;
+}
+.contacto .inicio__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-image: url(../assets/images/fondo/fondoindex.jpg);
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../assets/images/fondo/fondoindex.jpg);
+
+  background-size: cover;
+  color: white;
+  width: 100%;
+  justify-content: space-between;
+  padding: 25px;
+}
+.contacto p {
+  font-size: 20px;
+  margin: auto;
+  padding: 5px 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.contacto h2 {
+  padding: 10px 0px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.contacto fieldset {
+  padding: 10px;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+@media screen and (min-width: 0px) and (max-width: 990px) {
+  .bodyContainer .bodyContainer__header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menuDesplegable {
+    left: 125px;
+    top: 150px;
+    display: none;
+  }
+}
