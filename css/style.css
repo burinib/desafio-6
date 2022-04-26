@@ -127,8 +127,10 @@ dl {
 }
 
 .imageMain {
-  -webkit-animation: imageMain 4s timing-function delay iteration-count direction fill-mode;
-          animation: imageMain 4s timing-function delay iteration-count direction fill-mode;
+  -webkit-animation: imageMain 4s timing-function delay iteration-count direction
+ fill-mode;
+          animation: imageMain 4s timing-function delay iteration-count direction
+ fill-mode;
   -webkit-animation-duration: 4s;
           animation-duration: 4s;
   -webkit-animation-delay: 1s;
@@ -326,6 +328,7 @@ dl {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          
 }
 
 .remera .images {
