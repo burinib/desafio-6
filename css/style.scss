@@ -109,14 +109,14 @@ dl {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.5rem;
-}
-.footer .footer__redes {
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
-}
-.footer .footer__redes li {
-  list-style: none;
+  .footer__redes {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+  .footer__redes li {
+    list-style: none;
+  }
 }
 
 .nosotros {
@@ -126,23 +126,24 @@ dl {
   flex-direction: column;
   align-items: center;
   min-height: 20vh;
+  .texto h1 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  p {
+    color: white;
+    padding: auto;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+  }
 }
-.texto h1 {
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-.texto p {
-  color: white;
-  padding: auto;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-.texto .img {
-  display: flex;
-  justify-content: center;
-  max-height: 100%;
-}
+
 .titulo .inicio__header {
   display: flex;
   justify-content: space-between;
@@ -158,21 +159,21 @@ dl {
   flex-direction: column;
   justify-content: space-between;
   .inicio__header {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-}
-.images {
-  padding: 5px;
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-  gap: 10px;
-}
-.images img {
-  width: 100%;
-  height: 250px;
-}
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .images {
+    padding: 5px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    gap: 10px;
+  }
+  .images img {
+    width: 100%;
+    height: 250px;
+  }
 }
 
 .camisas {
@@ -183,17 +184,17 @@ dl {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-.camisas .images {
-  padding: 5px;
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-  gap: 10px;
-}
-.camisas .images img {
-  width: 100%;
-  height: 250px;
+  .images {
+    padding: 5px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    gap: 10px;
+  }
+  img {
+    width: 100%;
+    height: 250px;
+  }
 }
 .pantalones {
   text-align-last: center;
@@ -201,17 +202,17 @@ dl {
   background-size: cover;
   min-height: s 100vh;
   display: block !important;
-}
-.pantalones .images {
-  padding: 5px;
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-  gap: 10px;
-}
-.pantalones .images img {
-  width: 100%;
-  height: 250px;
+  .images {
+    padding: 5px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    gap: 10px;
+  }
+  img {
+    width: 100%;
+    height: 250px;
+  }
 }
 
 .remera {
@@ -222,19 +223,19 @@ dl {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  .images {
+    padding: 5px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    gap: 10px;
+  }
+  images img {
+    width: 100%;
+    height: 250px;
+  }
 }
 
-.remera .images {
-  padding: 5px;
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-  gap: 10px;
-}
-.remera .images img {
-  width: 100%;
-  height: 250px;
-}
 .container__envios {
   background-image: url(../assets/images/fondo/fondoindex.jpg);
   min-height: 90vh;
@@ -243,44 +244,41 @@ dl {
   flex-direction: column;
   gap: 70px;
   align-content: center;
+  h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  p {
+    margin-top: -10px;
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  table {
+    margin: auto;
+    border: double;
+    border-color: white;
+    border-style: double;
+    background-color: black;
+  }
+  tbody {
+    background-color: black;
+    border-color: rgb(102, 71, 36);
+    color: white;
+  }
 }
 
-.envios h1 {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  background-color: black;
-  color: white;
-}
-
-.envios p {
-  margin-top: -10px;
-  margin: 5px;
-  padding: 0;
-  text-align: center;
-  color: white;
-  font-size: 16px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.envioscu h2 {
-  text-align: center;
-  background-color: black;
-  color: white;
-}
-
-.envioscu table {
-  margin: auto;
-  border: double;
-  border-color: white;
-  border-style: double;
-  background-color: black;
-}
-.envioscu table tbody {
-  background-color: black;
-  border-color: rgb(102, 71, 36);
-  color: white;
-}
 .contacto .inicio__header {
   display: flex;
   justify-content: space-between;
@@ -300,30 +298,28 @@ dl {
   width: 100%;
   justify-content: space-between;
   padding: 25px;
-}
-.contacto p {
-  font-size: 20px;
-  margin: auto;
-  padding: 5px 0px;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.contacto h2 {
-  padding: 10px 0px;
-  font-size: 20px;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.contacto fieldset {
-  padding: 10px;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  p {
+    font-size: 20px;
+    margin: auto;
+    padding: 5px 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  h2 {
+    padding: 10px 0px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  fieldset {
+    padding: 10px;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
 }
 
 @media screen and (min-width: 0px) and (max-width: 990px) {
