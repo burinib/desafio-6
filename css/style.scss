@@ -23,6 +23,7 @@ dl {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   .bodyContainer__header {
     display: flex;
     justify-content: space-between;
@@ -31,15 +32,21 @@ dl {
   h1 {
     display: flex;
     justify-content: center;
+    color: white;
   }
-  h2 {
+  p {
     color: white;
     text-align: center;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
   }
   .bodyContainer__nav {
     width: 60%;
   }
 }
+
 .navbar-collapse {
   justify-content: end;
 }
@@ -117,9 +124,16 @@ dl {
   .footer__redes li {
     list-style: none;
   }
+  ul.footer__redes {
+    transition: all 2s;
+  }
+  ul.footer__redes:hover {
+    background-color: rgba(206, 79, 79, 0.3);
+    width: 300px;
+  }
 }
 
-.nosotros {
+/* .nosotros {
   background-image: url(../assets/images/fondo/fondoindex.jpg);
   background-size: 100%;
   display: fYour site is ready to be published atlex;
@@ -142,7 +156,7 @@ dl {
     justify-content: center;
     max-height: 100%;
   }
-}
+ */
 
 .titulo .inicio__header {
   display: flex;
@@ -230,7 +244,7 @@ dl {
     grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
     gap: 10px;
   }
-  images img {
+  img {
     width: 100%;
     height: 250px;
   }

@@ -51,11 +51,21 @@ dl {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: white;
 }
 
-.bodyContainer h2 {
+.bodyContainer p {
   color: white;
   text-align: center;
+}
+
+.bodyContainer .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .bodyContainer .bodyContainer__nav {
@@ -127,10 +137,8 @@ dl {
 }
 
 .imageMain {
-  -webkit-animation: imageMain 4s timing-function delay iteration-count direction
- fill-mode;
-          animation: imageMain 4s timing-function delay iteration-count direction
- fill-mode;
+  -webkit-animation: imageMain 4s timing-function delay iteration-count direction fill-mode;
+          animation: imageMain 4s timing-function delay iteration-count direction fill-mode;
   -webkit-animation-duration: 4s;
           animation-duration: 4s;
   -webkit-animation-delay: 1s;
@@ -163,43 +171,40 @@ dl {
   list-style: none;
 }
 
-.nosotros {
+.footer ul.footer__redes {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.footer ul.footer__redes:hover {
+  background-color: rgba(206, 79, 79, 0.3);
+  width: 300px;
+}
+
+/* .nosotros {
   background-image: url(../assets/images/fondo/fondoindex.jpg);
   background-size: 100%;
   display: fYour site is ready to be published atlex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   min-height: 20vh;
-}
-
-.texto h1 {
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-
-.texto p {
-  color: white;
-  padding: auto;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.texto .img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-height: 100%;
-}
-
+  .texto h1 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  p {
+    color: white;
+    padding: auto;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+  }
+ */
 .titulo .inicio__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -283,7 +288,7 @@ dl {
   gap: 10px;
 }
 
-.camisas .images img {
+.camisas img {
   width: 100%;
   height: 250px;
 }
@@ -308,7 +313,7 @@ dl {
   gap: 10px;
 }
 
-.pantalones .images img {
+.pantalones img {
   width: 100%;
   height: 250px;
 }
@@ -328,7 +333,6 @@ dl {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-          
 }
 
 .remera .images {
@@ -343,7 +347,7 @@ dl {
   gap: 10px;
 }
 
-.remera .images img {
+.remera img {
   width: 100%;
   height: 250px;
 }
@@ -364,7 +368,7 @@ dl {
       align-content: center;
 }
 
-.envios h1 {
+.container__envios h1 {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -372,7 +376,7 @@ dl {
   color: white;
 }
 
-.envios p {
+.container__envios p {
   margin-top: -10px;
   margin: 5px;
   padding: 0;
@@ -382,13 +386,13 @@ dl {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.envioscu h2 {
+.container__envios h2 {
   text-align: center;
   background-color: black;
   color: white;
 }
 
-.envioscu table {
+.container__envios table {
   margin: auto;
   border: double;
   border-color: white;
@@ -396,7 +400,7 @@ dl {
   background-color: black;
 }
 
-.envioscu table tbody {
+.container__envios tbody {
   background-color: black;
   border-color: #664724;
   color: white;
@@ -452,11 +456,11 @@ dl {
   padding: 10px;
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
+.contacto button,
+.contacto input,
+.contacto optgroup,
+.contacto select,
+.contacto textarea {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
