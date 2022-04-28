@@ -56,7 +56,20 @@ dl {
 
 .bodyContainer p {
   color: white;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bodyContainer .nosotrosTexto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .bodyContainer .img {
@@ -172,39 +185,15 @@ dl {
 }
 
 .footer ul.footer__redes {
-  -webkit-transition: all 2s;
-  transition: all 2s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .footer ul.footer__redes:hover {
-  background-color: rgba(206, 79, 79, 0.3);
+  background-color: rgba(83, 180, 236, 0.3);
   width: 300px;
 }
 
-/* .nosotros {
-  background-image: url(../assets/images/fondo/fondoindex.jpg);
-  background-size: 100%;
-  display: fYour site is ready to be published atlex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 20vh;
-  .texto h1 {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-  }
-  p {
-    color: white;
-    padding: auto;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-  .img {
-    display: flex;
-    justify-content: center;
-    max-height: 100%;
-  }
- */
 .titulo .inicio__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -376,14 +365,27 @@ dl {
   color: white;
 }
 
-.container__envios p {
+.container__envios .enviosTexto p {
   margin-top: -10px;
-  margin: 5px;
   padding: 0;
-  text-align: center;
   color: white;
   font-size: 16px;
   background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px auto;
+  text-align: center;
 }
 
 .container__envios h2 {
