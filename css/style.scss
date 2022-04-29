@@ -1,10 +1,12 @@
 @import "./mixins.scss";
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Rancho", cursive;
 }
+
 ul,
 ol,
 dl {
@@ -34,7 +36,6 @@ dl {
     @include display_justify_center;
     color: white;
     text-align: center;
-    
   }
   p {
     color: white;
@@ -68,6 +69,11 @@ dl {
   z-index: 100;
 }
 
+#navbarNav ul li a {
+  font-size: 1.8rem;
+  line-height: 20px;
+}
+
 .menu {
   text-decoration: none;
   list-style: none;
@@ -75,8 +81,9 @@ dl {
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   padding: 1rem;
 }
-.menu__bahia {
-  font-size: 1.3rem;
+nav .menu__bahia {
+  line-height: 20px;
+  font-size: 3rem;
 }
 .submenu ul li a {
   color: white;
@@ -93,7 +100,8 @@ dl {
   display: none;
   position: absolute;
   z-index: 100;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #00000080;
+  top: 53px;
   li {
     padding: 5px 0px;
     list-style: none;
@@ -111,14 +119,7 @@ dl {
   display: block;
 }
 
-.imageMain {
-  animation: imageMain 4s timing-function delay iteration-count direction
-    fill-mode;
-  animation-duration: 4s;
-  animation-delay: 1s;
-}
-@keyframes imageMain {
-}
+
 
 .footer {
   @include display_justify_center;
