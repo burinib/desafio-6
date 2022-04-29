@@ -23,7 +23,6 @@ dl {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   .bodyContainer__header {
     display: flex;
     justify-content: space-between;
@@ -39,11 +38,11 @@ dl {
     display: flex;
     width: 50%;
     background-color: rgba(0, 0, 0, 0.5);
-     }
-    .nosotrosTexto {
-      display: flex;
-      justify-content: center;
-    }
+  }
+  .nosotrosTexto {
+    display: flex;
+    justify-content: center;
+  }
   .img {
     display: flex;
     justify-content: center;
@@ -69,7 +68,7 @@ dl {
   text-decoration: none;
   list-style: none;
   font-size: 1.3rem;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   padding: 1rem;
 }
 .menu__bahia {
@@ -90,7 +89,7 @@ dl {
   display: none;
   position: absolute;
   z-index: 100;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   li {
     padding: 5px 0px;
     list-style: none;
@@ -118,9 +117,9 @@ dl {
 }
 
 .footer {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   display: flex;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 0.5rem;
   .footer__redes {
     display: flex;
@@ -146,6 +145,7 @@ dl {
 }
 
 .abrigo {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
@@ -153,6 +153,7 @@ dl {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   .inicio__header {
     display: flex;
     justify-content: space-between;
@@ -172,6 +173,7 @@ dl {
 }
 
 .camisas {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
@@ -192,6 +194,7 @@ dl {
   }
 }
 .pantalones {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
@@ -211,6 +214,7 @@ dl {
 }
 
 .remera {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
@@ -240,39 +244,53 @@ dl {
   gap: 70px;
   align-content: center;
   h1 {
-    margin: 0;
-    padding: 0;
+    margin: 5px auto;
+    padding: 5px 20px;
     text-align: center;
-    background-color: black;
     color: white;
+    width: fit-content;
   }
-  
-  
+
+  .envios {
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 650px;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 6px 6px 0px -3px rgba(125, 125, 125, 0.43);
+  }
   .enviosTexto p {
     margin-top: -10px;
     padding: 0;
     color: white;
     font-size: 16px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: transparent !important;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin: 5px auto;
     text-align: center;
+    width: 80%;
   }
 
   h2 {
     text-align: center;
-    background-color: black;
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin: 5px auto;
+    padding: 5px 25px;
   }
   table {
-    margin: auto;
-    border: double;
-    border-color: white;
-    border-style: double;
+    margin: 0 auto;
+    border: 1px solid rgb(36, 9, 87);
     background-color: black;
+    margin-bottom: 20px;
+    td {
+      padding: 15px;
+      border: 1px solid rgb(36, 9, 87);
+    }
   }
   tbody {
     background-color: black;

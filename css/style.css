@@ -106,7 +106,7 @@ dl {
   text-decoration: none;
   list-style: none;
   font-size: 1.3rem;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   padding: 1rem;
 }
 
@@ -129,7 +129,7 @@ dl {
   display: none;
   position: absolute;
   z-index: 100;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .menuDesplegable li {
@@ -161,13 +161,13 @@ dl {
 @-webkit-keyframes imageMain {}
 
 @keyframes imageMain {}.footer {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 0.5rem;
 }
 
@@ -205,6 +205,7 @@ dl {
 }
 
 .abrigo {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
@@ -249,6 +250,7 @@ dl {
 }
 
 .camisas {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
@@ -283,6 +285,7 @@ dl {
 }
 
 .pantalones {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
@@ -308,6 +311,7 @@ dl {
 }
 
 .remera {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
@@ -358,11 +362,23 @@ dl {
 }
 
 .container__envios h1 {
-  margin: 0;
-  padding: 0;
+  margin: 5px auto;
+  padding: 5px 20px;
   text-align: center;
-  background-color: black;
   color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.container__envios .envios {
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.74);
+  width: 650px;
+  border-radius: 2px;
+  padding: 10px;
+  -webkit-box-shadow: 6px 6px 0px -3px rgba(125, 125, 125, 0.43);
+          box-shadow: 6px 6px 0px -3px rgba(125, 125, 125, 0.43);
 }
 
 .container__envios .enviosTexto p {
@@ -370,7 +386,7 @@ dl {
   padding: 0;
   color: white;
   font-size: 16px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: transparent !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -386,20 +402,30 @@ dl {
           align-items: center;
   margin: 5px auto;
   text-align: center;
+  width: 80%;
 }
 
 .container__envios h2 {
   text-align: center;
-  background-color: black;
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 5px auto;
+  padding: 5px 25px;
 }
 
 .container__envios table {
-  margin: auto;
-  border: double;
-  border-color: white;
-  border-style: double;
+  margin: 0 auto;
+  border: 1px solid #240957;
   background-color: black;
+  margin-bottom: 20px;
+}
+
+.container__envios table td {
+  padding: 15px;
+  border: 1px solid #240957;
 }
 
 .container__envios tbody {
