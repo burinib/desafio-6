@@ -1,3 +1,5 @@
+@import url("./mixins.scss");
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +19,7 @@ dl {
 }
 
 .bodyContainer {
-  background-image: url(../assets/images/fondo/fondoindex.jpg);
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -29,8 +31,7 @@ dl {
     padding: 15px;
   }
   h1 {
-    display: flex;
-    justify-content: center;
+    @include display_justify_center;
     color: white;
   }
   p {
@@ -38,14 +39,15 @@ dl {
     display: flex;
     width: 50%;
     background-color: rgba(0, 0, 0, 0.5);
+    margin: 25px 0;
+    line-height: 25px;
+    padding: 25px;
   }
   .nosotrosTexto {
-    display: flex;
-    justify-content: center;
+    @include display_justify_center;
   }
   .img {
-    display: flex;
-    justify-content: center;
+    @include display_justify_center;
   }
   .bodyContainer__nav {
     width: 60%;
@@ -117,10 +119,10 @@ dl {
 }
 
 .footer {
+  @include display_justify_center;
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
-  display: flex;
-  justify-content: center;
   padding: 0.5rem;
+  margin-top: 20px;
   .footer__redes {
     display: flex;
     justify-content: space-around;
@@ -129,12 +131,12 @@ dl {
   .footer__redes li {
     list-style: none;
   }
+  .footer__redes li:hover {
+    transform: scale(1.25);
+    transition: all 0.5s;
+  }
   ul.footer__redes {
     transition: all 1s;
-  }
-  ul.footer__redes:hover {
-    background-color: rgba(83, 180, 236, 0.3);
-    width: 300px;
   }
 }
 
@@ -150,8 +152,7 @@ dl {
   color: white;
   background-size: cover;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  @include display_column;
   justify-content: space-between;
 
   .inicio__header {
@@ -173,13 +174,12 @@ dl {
 }
 
 .camisas {
+  @include display_column;
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   .images {
     padding: 5px;
@@ -214,13 +214,12 @@ dl {
 }
 
 .remera {
+  @include display_column;
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   text-align-last: center;
   color: white;
   background-size: cover;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   .images {
     padding: 5px;
@@ -236,11 +235,10 @@ dl {
 }
 
 .container__envios {
+  @include display_column;
   background-image: url(../assets/images/fondo/fondoindex.jpg);
   min-height: 90vh;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
   gap: 70px;
   align-content: center;
   h1 {
@@ -260,14 +258,13 @@ dl {
     box-shadow: 6px 6px 0px -3px rgba(125, 125, 125, 0.43);
   }
   .enviosTexto p {
+    @include display_column;
     margin-top: -10px;
     padding: 0;
     color: white;
     font-size: 16px;
     background-color: transparent !important;
-    display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
     margin: 5px auto;
     text-align: center;
@@ -307,9 +304,8 @@ dl {
 }
 
 .contacto {
-  display: flex;
+  @include display_column;
   align-items: center;
-  flex-direction: column;
   text-align: center;
   background-image: url(../assets/images/fondo/fondoindex.jpg);
 

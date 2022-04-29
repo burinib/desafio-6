@@ -1,3 +1,4 @@
+@import url("./mixins.scss");
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +20,7 @@ dl {
 }
 
 .bodyContainer {
-  background-image: url(../assets/images/fondo/fondoindex.jpg);
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   background-size: cover;
   min-height: 100vh;
   display: -webkit-box;
@@ -45,12 +46,6 @@ dl {
 }
 
 .bodyContainer h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   color: white;
 }
 
@@ -61,6 +56,9 @@ dl {
   display: flex;
   width: 50%;
   background-color: rgba(0, 0, 0, 0.5);
+  margin: 25px 0;
+  line-height: 25px;
+  padding: 25px;
 }
 
 .bodyContainer .nosotrosTexto {
@@ -169,6 +167,7 @@ dl {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0.5rem;
+  margin-top: 20px;
 }
 
 .footer .footer__redes {
@@ -184,14 +183,16 @@ dl {
   list-style: none;
 }
 
+.footer .footer__redes li:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 .footer ul.footer__redes {
   -webkit-transition: all 1s;
   transition: all 1s;
-}
-
-.footer ul.footer__redes:hover {
-  background-color: rgba(83, 180, 236, 0.3);
-  width: 300px;
 }
 
 .titulo .inicio__header {
