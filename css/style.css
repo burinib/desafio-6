@@ -55,9 +55,11 @@ dl {
   color: white;
   text-align: center;
   font-size: 50px;
+  padding: 25px;
 }
 
 .bodyContainer p {
+  font-size: 25px;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,6 +69,7 @@ dl {
   margin: 25px 0;
   line-height: 25px;
   padding: 25px;
+  text-align: centerW;
 }
 
 .bodyContainer .nosotrosTexto {
@@ -142,7 +145,7 @@ nav .menu__bahia {
   position: absolute;
   z-index: 100;
   background-color: #00000080;
-  top: 53px;
+  top: 52px;
 }
 
 .menuDesplegable li {
@@ -225,6 +228,11 @@ nav .menu__bahia {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.abrigo h1 {
+  font-size: 50px;
+  padding: 25px;
 }
 
 .abrigo .inicio__header {

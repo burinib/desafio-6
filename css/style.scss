@@ -37,9 +37,10 @@ dl {
     color: white;
     text-align: center;
     font-size: 50px;
+    padding: 25px;
   }
   p {
-
+font-size: 25px;
     color: white;
     display: flex;
     width: 50%;
@@ -47,6 +48,7 @@ dl {
     margin: 25px 0;
     line-height: 25px;
     padding: 25px;
+    text-align: centerW
   }
   .nosotrosTexto {
     @include display_justify_center;
@@ -103,7 +105,7 @@ nav .menu__bahia {
   position: absolute;
   z-index: 100;
   background-color: #00000080;
-  top: 53px;
+  top: 52px;
   li {
     padding: 5px 0px;
     list-style: none;
@@ -159,6 +161,10 @@ nav .menu__bahia {
   min-height: 100vh;
   @include display_column;
   justify-content: space-between;
+  h1 {
+    font-size: 50px;
+    padding: 25px;
+  }
 
   .inicio__header {
     display: flex;
