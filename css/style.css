@@ -54,6 +54,7 @@ dl {
           justify-content: center;
   color: white;
   text-align: center;
+  font-size: 50px;
 }
 
 .bodyContainer p {
@@ -373,6 +374,7 @@ nav .menu__bahia {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  font-size: 50px;
 }
 
 .container__envios .envios {
@@ -396,7 +398,7 @@ nav .menu__bahia {
   margin-top: -10px;
   padding: 0;
   color: white;
-  font-size: 16px;
+  font-size: 22px;
   background-color: transparent !important;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -418,6 +420,7 @@ nav .menu__bahia {
   width: fit-content;
   margin: 5px auto;
   padding: 5px 25px;
+  font-size: 40px;
 }
 
 .container__envios table {
@@ -425,6 +428,7 @@ nav .menu__bahia {
   border: 1px solid #240957;
   background-color: black;
   margin-bottom: 20px;
+  font-size: 22px;
 }
 
 .container__envios table td {
@@ -472,7 +476,7 @@ nav .menu__bahia {
 }
 
 .contacto p {
-  font-size: 20px;
+  font-size: 25px;
   margin: auto;
   padding: 5px 0px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -480,12 +484,17 @@ nav .menu__bahia {
 
 .contacto h2 {
   padding: 10px 0px;
-  font-size: 20px;
+  font-size: 30px;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 .contacto fieldset {
   padding: 10px;
+  font-size: 25;
+}
+
+.contacto label {
+  font-size: 25px;
 }
 
 .contacto button,
@@ -495,6 +504,7 @@ nav .menu__bahia {
 .contacto textarea {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+  font-size: 25px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 990px) {

@@ -36,8 +36,10 @@ dl {
     @include display_justify_center;
     color: white;
     text-align: center;
+    font-size: 50px;
   }
   p {
+
     color: white;
     display: flex;
     width: 50%;
@@ -250,6 +252,7 @@ nav .menu__bahia {
     text-align: center;
     color: white;
     width: fit-content;
+    font-size: 50px;
   }
 
   .envios {
@@ -259,13 +262,14 @@ nav .menu__bahia {
     border-radius: 2px;
     padding: 10px;
     box-shadow: 6px 6px 0px -3px rgba(125, 125, 125, 0.43);
+    
   }
   .enviosTexto p {
     @include display_column;
     margin-top: -10px;
     padding: 0;
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     background-color: transparent !important;
     justify-content: center;
     align-items: center;
@@ -281,12 +285,14 @@ nav .menu__bahia {
     width: fit-content;
     margin: 5px auto;
     padding: 5px 25px;
+    font-size: 40px;
   }
   table {
     margin: 0 auto;
     border: 1px solid rgb(36, 9, 87);
     background-color: black;
     margin-bottom: 20px;
+    font-size: 22px;
     td {
       padding: 15px;
       border: 1px solid rgb(36, 9, 87);
@@ -318,18 +324,22 @@ nav .menu__bahia {
   justify-content: space-between;
   padding: 25px;
   p {
-    font-size: 20px;
+    font-size: 25px;
     margin: auto;
     padding: 5px 0px;
     background-color: rgba(0, 0, 0, 0.6);
   }
   h2 {
     padding: 10px 0px;
-    font-size: 20px;
+    font-size: 30px;
     background-color: rgba(0, 0, 0, 0.6);
   }
   fieldset {
     padding: 10px;
+    font-size: 25;
+  }
+  label {
+    font-size: 25px;
   }
   button,
   input,
@@ -338,6 +348,7 @@ nav .menu__bahia {
   textarea {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    font-size: 25px;
   }
 }
 
