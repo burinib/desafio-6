@@ -40,7 +40,7 @@ dl {
     padding: 25px;
   }
   p {
-font-size: 25px;
+    font-size: 25px;
     color: white;
     display: flex;
     width: 50%;
@@ -48,7 +48,7 @@ font-size: 25px;
     margin: 25px 0;
     line-height: 25px;
     padding: 25px;
-    text-align: centerW
+    text-align: centerW;
   }
   .nosotrosTexto {
     @include display_justify_center;
@@ -123,8 +123,6 @@ nav .menu__bahia {
   display: block;
 }
 
-
-
 .footer {
   @include display_justify_center;
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
@@ -139,11 +137,11 @@ nav .menu__bahia {
     list-style: none;
   }
   .footer__redes li:hover {
-    transform: scale(1.25);
-    transition: all 0.5s;
+    transform: scale(1.50);
+    transition: all 1s;
   }
   ul.footer__redes {
-    transition: all 1s;
+    transition: all 1.5s;
   }
 }
 
@@ -182,6 +180,11 @@ nav .menu__bahia {
     width: 100%;
     height: 250px;
   }
+  width: 100%;
+  img:hover {
+    transform: scale(1.25);
+    transition: all 1.5s;
+  }
 }
 
 .camisas {
@@ -203,6 +206,10 @@ nav .menu__bahia {
     width: 100%;
     height: 250px;
   }
+  img:hover {
+    transform: scale(1.25);
+    transition: all 1.5s;
+  }
 }
 .pantalones {
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
@@ -221,6 +228,10 @@ nav .menu__bahia {
   img {
     width: 100%;
     height: 250px;
+  }
+  img:hover {
+    transform: scale(1.25);
+    transition: all 1.5s;
   }
 }
 
@@ -242,6 +253,10 @@ nav .menu__bahia {
   img {
     width: 100%;
     height: 250px;
+  }
+  img:hover {
+    transform: scale(1.25);
+    transition: all 1.5s;
   }
 }
 
@@ -268,7 +283,6 @@ nav .menu__bahia {
     border-radius: 2px;
     padding: 10px;
     box-shadow: 6px 6px 0px -3px rgba(125, 125, 125, 0.43);
-    
   }
   .enviosTexto p {
     @include display_column;
