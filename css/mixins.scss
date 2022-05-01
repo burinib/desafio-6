@@ -6,3 +6,8 @@
     display: flex;
     flex-direction: column;
 }
+@mixin display_column_center {
+    @extend display_column;
+    align-items: center;
+    justify-content: center;
+}
