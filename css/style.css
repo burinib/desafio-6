@@ -544,7 +544,43 @@ nav .menu__bahia {
   font-size: 25px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 990px) {
+#carouselMobile {
+  display: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  nav .menu__bahia {
+    font-size: 1.5rem;
+  }
+  #navbarNav ul li a {
+    font-size: 1.5rem;
+  }
+  .bodyContainer h1 {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  .bodyContainer p {
+    width: 100%;
+    margin: 0;
+  }
+  .bodyContainer .img img {
+    max-width: 90vw;
+  }
+  .footer .footer__redes {
+    width: 100%;
+  }
+  #carouselDesktop {
+    display: none;
+  }
+  #carouselMobile {
+    display: block;
+  }
+  .container__envios .envios {
+    max-width: 100vw;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
   .bodyContainer .bodyContainer__header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -558,11 +594,5 @@ nav .menu__bahia {
     left: 125px;
     top: 150px;
     display: none;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .menu__bahia {
-    font-size: 2rem;
   }
 }
