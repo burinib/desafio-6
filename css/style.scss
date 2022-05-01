@@ -382,3 +382,8 @@ nav .menu__bahia {
     display: none;
   }
 }
+@media screen and (max-width: 550px) {
+  .menu__bahia {
+    font-size: 2rem;
+  }
+}
