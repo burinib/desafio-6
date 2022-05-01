@@ -191,8 +191,8 @@ nav .menu__bahia {
 }
 
 .footer .footer__redes li:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
