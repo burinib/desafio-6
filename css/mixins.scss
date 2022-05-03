@@ -1,13 +1,13 @@
-@mixin display_justify_center{
-    display: flex;
-    justify-content: center;
+@mixin display_justify_center {
+  display: flex;
+  justify-content: center;
 }
 @mixin display_column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 @mixin display_column_center {
-    @extend display_column;
-    align-items: center;
-    justify-content: center;
+  @extend display_column;
+  align-items: center;
+  justify-content: center;
 }
