@@ -39,7 +39,7 @@ dl {
     font-size: 50px;
     padding: 25px;
   }
-  p {
+  > p {
     font-size: 25px;
     color: white;
     display: flex;
@@ -48,10 +48,20 @@ dl {
     margin: 25px 0;
     line-height: 25px;
     padding: 25px;
-    text-align: centerW;
+    text-align: center;
   }
   .nosotrosTexto {
     @include display_justify_center;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 25px 0;
+    line-height: 25px;
+    padding: 25px;
+    text-align: center;
+    margin: 10px auto;
   }
   .img {
     @include display_justify_center;
@@ -334,7 +344,6 @@ nav .menu__bahia {
   align-items: center;
   text-align: center;
   background-image: url(../assets/images/fondo/fondoindex.jpg);
-
   background-size: cover;
   color: white;
   width: 100%;
@@ -371,6 +380,45 @@ nav .menu__bahia {
 
 #carouselMobile {
   display: none;
+}
+
+.sectionContainer {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
+  >h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+  }
+}
+
+
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.cardProducto {
+  box-shadow: 0 1px 1px 0 rgba(7, 7, 7, 0.1);
+  height: 314px;
+  margin: 0 8px 16px;
+  width: 224px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  > img {
+    border: 1px solid grey;
+    width: 200px;
+    height: 270px;
+  }
+  > p {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
 }
 
 // MEDIA QUERIES PARA TELEFONOS MOVILES

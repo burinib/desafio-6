@@ -58,7 +58,7 @@ dl {
   padding: 25px;
 }
 
-.bodyContainer p {
+.bodyContainer > p {
   font-size: 25px;
   color: white;
   display: -webkit-box;
@@ -69,7 +69,7 @@ dl {
   margin: 25px 0;
   line-height: 25px;
   padding: 25px;
-  text-align: centerW;
+  text-align: center;
 }
 
 .bodyContainer .nosotrosTexto {
@@ -79,6 +79,16 @@ dl {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: 25px;
+  color: white;
+  display: flex;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 25px 0;
+  line-height: 25px;
+  padding: 25px;
+  text-align: center;
+  margin: 10px auto;
 }
 
 .bodyContainer .img {
@@ -432,17 +442,17 @@ nav .menu__bahia {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: -10px;
   padding: 0;
   color: white;
   font-size: 22px;
   background-color: transparent !important;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin: 5px auto;
   text-align: center;
   width: 80%;
@@ -546,6 +556,63 @@ nav .menu__bahia {
 
 #carouselMobile {
   display: none;
+}
+
+.sectionContainer {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
+}
+
+.sectionContainer > h2 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+
+.cardsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px;
+}
+
+.cardProducto {
+  -webkit-box-shadow: 0 1px 1px 0 rgba(7, 7, 7, 0.1);
+          box-shadow: 0 1px 1px 0 rgba(7, 7, 7, 0.1);
+  height: 314px;
+  margin: 0 8px 16px;
+  width: 224px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.cardProducto > img {
+  border: 1px solid grey;
+  width: 200px;
+  height: 270px;
+}
+
+.cardProducto > p {
+  font-size: 20px;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {

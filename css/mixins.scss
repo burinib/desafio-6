@@ -7,7 +7,8 @@
   flex-direction: column;
 }
 @mixin display_column_center {
-  @extend display_column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
