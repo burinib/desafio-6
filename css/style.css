@@ -184,7 +184,7 @@ nav .menu__bahia {
           justify-content: center;
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   padding: 0.5rem;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .footer .footer__redes {
@@ -222,31 +222,30 @@ nav .menu__bahia {
   padding: 15px;
 }
 
-.abrigo {
+.tituloCatalogo {
+  text-align: center;
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
-  text-align-last: center;
   color: white;
-  background-size: cover;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-}
-
-.abrigo h1 {
   font-size: 50px;
   padding: 25px;
 }
 
-.abrigo .inicio__header {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+
+.inicio__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,7 +255,7 @@ nav .menu__bahia {
   padding: 15px;
 }
 
-.abrigo .images {
+.images {
   padding: 5px;
   display: -ms-grid;
   display: grid;
@@ -268,129 +267,12 @@ nav .menu__bahia {
   gap: 10px;
 }
 
-.abrigo .images img {
+.images img {
   width: 100%;
   height: 250px;
 }
 
-.abrigo img:hover {
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-.camisas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
-  text-align-last: center;
-  color: white;
-  background-size: cover;
-  min-height: 100vh;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.camisas .images {
-  padding: 5px;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-grid-columns: (minmax(255px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-  gap: 10px;
-}
-
-.camisas img {
-  width: 100%;
-  height: 250px;
-}
-
-.camisas img:hover {
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-.pantalones {
-  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
-  text-align-last: center;
-  color: white;
-  background-size: cover;
-  min-height: s 100vh;
-  display: block !important;
-}
-
-.pantalones .images {
-  padding: 5px;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-grid-columns: (minmax(255px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-  gap: 10px;
-}
-
-.pantalones img {
-  width: 100%;
-  height: 250px;
-}
-
-.pantalones img:hover {
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-.remera {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
-  text-align-last: center;
-  color: white;
-  background-size: cover;
-  min-height: 100vh;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.remera .images {
-  padding: 5px;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-grid-columns: (minmax(255px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-  gap: 10px;
-}
-
-.remera img {
-  width: 100%;
-  height: 250px;
-}
-
-.remera img:hover {
+img:hover {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
   -webkit-transition: all 1.5s;
@@ -645,6 +527,18 @@ nav .menu__bahia {
   .container__envios .envios {
     max-width: 100vw;
   }
+  .cardsContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -661,5 +555,17 @@ nav .menu__bahia {
     left: 125px;
     top: 150px;
     display: none;
+  }
+  .cardsContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }

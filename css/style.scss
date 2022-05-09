@@ -136,7 +136,7 @@ nav .menu__bahia {
   @include display_justify_center;
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   padding: 0.5rem;
-  margin-top: 20px;
+  padding-top: 20px;
   .footer__redes {
     display: flex;
     justify-content: space-around;
@@ -159,114 +159,46 @@ nav .menu__bahia {
   justify-content: space-between;
   padding: 15px;
 }
-
-.abrigo {
+.tituloCatalogo {
+  text-align: center;
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
-  text-align-last: center;
   color: white;
-  background-size: cover;
-  min-height: 100vh;
-  @include display_column;
+  font-size: 50px;
+  padding: 25px;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+.inicio__header {
+  display: flex;
   justify-content: space-between;
-  h1 {
-    font-size: 50px;
-    padding: 25px;
-  }
-
-  .inicio__header {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-  }
-  .images {
-    padding: 5px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-    gap: 10px;
-  }
-  .images img {
-    width: 100%;
-    height: 250px;
-  }
+  padding: 15px;
+}
+.images {
+  padding: 5px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: 10px;
+}
+.images img {
   width: 100%;
-  img:hover {
-    transform: scale(1.25);
-    transition: all 1.5s;
-  }
+  height: 250px;
 }
-
-.camisas {
-  @include display_column;
-  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
-  text-align-last: center;
-  color: white;
-  background-size: cover;
-  min-height: 100vh;
-  justify-content: space-between;
-  .images {
-    padding: 5px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-    gap: 10px;
-  }
-  img {
-    width: 100%;
-    height: 250px;
-  }
-  img:hover {
-    transform: scale(1.25);
-    transition: all 1.5s;
-  }
-}
-.pantalones {
-  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
-  text-align-last: center;
-  color: white;
-  background-size: cover;
-  min-height: s 100vh;
-  display: block !important;
-  .images {
-    padding: 5px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-    gap: 10px;
-  }
-  img {
-    width: 100%;
-    height: 250px;
-  }
-  img:hover {
-    transform: scale(1.25);
-    transition: all 1.5s;
-  }
-}
-
-.remera {
-  @include display_column;
-  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
-  text-align-last: center;
-  color: white;
-  background-size: cover;
-  min-height: 100vh;
-  justify-content: space-between;
-  .images {
-    padding: 5px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
-    gap: 10px;
-  }
-  img {
-    width: 100%;
-    height: 250px;
-  }
-  img:hover {
-    transform: scale(1.25);
-    transition: all 1.5s;
-  }
+img:hover {
+  transform: scale(1.25);
+  transition: all 1.5s;
 }
 
 .container__envios {
@@ -384,13 +316,12 @@ nav .menu__bahia {
 
 .sectionContainer {
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
-  >h2 {
+  > h2 {
     text-align: center;
     margin-top: 40px;
     color: white;
   }
 }
-
 
 .cardsContainer {
   display: flex;
@@ -457,6 +388,11 @@ nav .menu__bahia {
   .container__envios .envios {
     max-width: 100vw;
   }
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 // MEDIA QUERIES PARA TABLES
@@ -469,5 +405,10 @@ nav .menu__bahia {
     left: 125px;
     top: 150px;
     display: none;
+  }
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
