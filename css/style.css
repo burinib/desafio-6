@@ -448,6 +448,7 @@ img:hover {
   text-align: center;
   margin-top: 40px;
   color: white;
+  padding-top: 50px;
 }
 
 .cardsContainer {
@@ -461,6 +462,7 @@ img:hover {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 50px;
+  padding-bottom: 10px;
 }
 
 .cardProducto {
