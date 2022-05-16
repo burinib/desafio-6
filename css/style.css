@@ -517,6 +517,10 @@ img:hover {
   .bodyContainer .img img {
     max-width: 90vw;
   }
+  .bodyContainer .nosotrosTexto {
+    padding: 15px;
+    width: 70%;
+  }
   .footer .footer__redes {
     width: 100%;
   }
