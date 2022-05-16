@@ -470,7 +470,7 @@ img:hover {
   height: 314px;
   margin: 0 8px 16px;
   width: 224px;
-  background-color: white;
+  background-color: #28282b70;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -496,6 +496,7 @@ img:hover {
 .cardProducto > p {
   font-size: 20px;
   margin-bottom: 0;
+  color: white;
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
