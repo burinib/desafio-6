@@ -396,14 +396,26 @@ img:hover {
     max-width: 100vw;
   }
   .cardsContainer {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    
+    gap: 1rem;
+    padding: 20px;
   }
   .menuDesplegable {
     margin: 70px;
   }
+.cardProducto {
+  height: 100%;
+  width: 100%;
+  &:last-child{
+    display: none;
+  }
+  }
+.cardProducto img {
+  height: 100%;
+  width: 100%;
+}
 }
 
 // MEDIA QUERIES PARA TABLES
@@ -418,8 +430,21 @@ img:hover {
     display: none;
   }
   .cardsContainer {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    gap: 1rem;
+    padding: 20px;
+  }
+  .cardProducto {
+    height: 80%;
+    width: 80%;
+    &:last-child{
+      display: none;
+    }
+    }
+  .cardProducto img {
+    height: 100%;
+    width: 100%;
   }
 }
