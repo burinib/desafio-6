@@ -19,6 +19,24 @@ dl {
   text-align: center;
 }
 
+.positionStiky {
+  position: fixed;
+  width: 100%;
+  z-index: 5000;
+}
+
+.mt-10rem {
+  margin-top: 5rem;
+}
+
+.pt25rem {
+  padding-top: 2.5rem;
+}
+
+.pt35rem {
+  padding-top: 3.5rem;
+}
+
 .bodyContainer {
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   background-size: cover;
@@ -291,7 +309,7 @@ img:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../assets/images/fondo/fondoindex.jpg);
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   min-height: 90vh;
   background-size: cover;
   gap: 70px;
@@ -344,7 +362,6 @@ img:hover {
 .container__envios h2 {
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
   margin: 5px auto;
   padding: 5px 25px;
   font-size: 2.5rem;
@@ -392,7 +409,6 @@ img:hover {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background-image: url(../assets/images/fondo/fondoindex.jpg);
   background-size: cover;
   color: white;
   width: 100%;
@@ -433,6 +449,12 @@ img:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   font-size: 25px;
+}
+
+.contactoBorder {
+  border: 20px dashed rgba(0, 0, 0, 0.5);
+  width: 50%;
+  margin: 6rem auto auto;
 }
 
 #carouselMobile {
