@@ -1,0 +1,600 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rancho", cursive;
+}
+
+ul,
+ol,
+dl {
+  padding: 0px !important;
+  margin: 0px;
+}
+
+.style {
+  background-position: center;
+  color: white;
+  width: auto;
+  text-align: center;
+}
+
+.bodyContainer {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bodyContainer .bodyContainer__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.bodyContainer h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 25px;
+}
+
+.bodyContainer > p {
+  font-size: 25px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 25px 0;
+  line-height: 25px;
+  padding: 25px;
+  text-align: center;
+}
+
+.bodyContainer .nosotrosTexto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 25px 0;
+  line-height: 25px;
+  padding: 25px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.bodyContainer .nosotrosTexto p {
+  font-family: "Roboto", sans-serif;
+}
+
+.bodyContainer .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bodyContainer .bodyContainer__nav {
+  width: 60%;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#navbarNav ul li a {
+  font-size: 1.8rem;
+  line-height: 20px;
+}
+
+.menu {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.3rem;
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
+  padding: 1rem;
+}
+
+nav .menu__bahia {
+  line-height: 20px;
+  font-size: 3rem;
+}
+
+.submenu ul li a {
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0px;
+  font-size: 1rem;
+  padding-inline: 0.5rem;
+}
+
+.menuDesplegable {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  background-color: #00000080;
+  top: 52px;
+}
+
+.menuDesplegable li {
+  padding: 5px 0px;
+  list-style: none;
+}
+
+.menuDesplegable li:hover {
+  background-color: white;
+}
+
+.menuDesplegable li:hover a {
+  color: black;
+}
+
+.submenu:hover > ul {
+  display: block;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
+  padding: 0.5rem;
+  padding-top: 20px;
+}
+
+.footer .footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+}
+
+.footer .footer__redes li {
+  list-style: none;
+}
+
+.footer .footer__redes li:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.footer ul.footer__redes {
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.titulo .inicio__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.tituloCatalogo {
+  text-align: center;
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
+  color: white;
+  font-size: 50px;
+  padding: 25px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+
+.inicio__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.images {
+  padding: 5px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: (minmax(255px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: 10px;
+}
+
+.images img {
+  width: 100%;
+  height: 250px;
+}
+
+img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.container__envios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../assets/images/fondo/fondoindex.jpg);
+  min-height: 90vh;
+  background-size: cover;
+  gap: 70px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.container__envios h1 {
+  margin: 0 auto;
+  padding: 5px 20px;
+  color: white;
+  font-size: 3rem;
+}
+
+.container__envios .envios {
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.74);
+  width: 650px;
+  border-radius: 2px;
+  padding: 10px;
+  -webkit-box-shadow: 6px 6px 0px -3px rgba(125, 125, 125, 0.43);
+          box-shadow: 6px 6px 0px -3px rgba(125, 125, 125, 0.43);
+}
+
+.container__envios .enviosTexto p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -10px;
+  padding: 0;
+  color: white;
+  font-size: 1rem;
+  background-color: transparent !important;
+  margin: 5px auto;
+  text-align: center;
+  width: 80%;
+  font-family: "Roboto", sans-serif;
+}
+
+.container__envios h2 {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 5px auto;
+  padding: 5px 25px;
+  font-size: 2.5rem;
+}
+
+.container__envios table {
+  margin: 0 auto;
+  border: 1px solid #240957;
+  background-color: black;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.container__envios table td {
+  padding: 15px;
+  border: 1px solid #240957;
+}
+
+.container__envios tbody {
+  background-color: black;
+  border-color: #664724;
+  color: white;
+}
+
+.contacto .inicio__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+  background-image: url(../assets/images/fondo/fondoindex.jpg);
+}
+
+.contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: url(../assets/images/fondo/fondoindex.jpg);
+  background-size: cover;
+  color: white;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px;
+}
+
+.contacto p {
+  font-size: 1rem;
+  margin: auto;
+  padding: 5px 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", sans-serif;
+}
+
+.contacto h2 {
+  padding: 10px 0px;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.contacto fieldset {
+  padding: 10px;
+  font-size: 25;
+}
+
+.contacto label {
+  font-size: 25px;
+}
+
+.contacto button,
+.contacto input,
+.contacto optgroup,
+.contacto select,
+.contacto textarea {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 25px;
+}
+
+#carouselMobile {
+  display: none;
+}
+
+.sectionContainer {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
+}
+
+.sectionContainer > h2 {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  padding-top: 50px;
+}
+
+.cardsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px;
+  padding-bottom: 10px;
+}
+
+.cardProducto {
+  -webkit-box-shadow: 0 1px 1px 0 rgba(7, 7, 7, 0.1);
+          box-shadow: 0 1px 1px 0 rgba(7, 7, 7, 0.1);
+  height: 314px;
+  margin: 0 8px 16px;
+  width: 224px;
+  background-color: #28282b70;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.cardProducto > img {
+  border: 1px solid grey;
+  width: 200px;
+  height: 270px;
+}
+
+.cardProducto > p {
+  font-size: 20px;
+  margin-bottom: 0;
+  color: white;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  nav .menu__bahia {
+    font-size: 1.5rem;
+  }
+  #navbarNav ul li a {
+    font-size: 1.5rem;
+  }
+  .bodyContainer h1 {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  .bodyContainer p {
+    width: 100%;
+    margin: 0;
+  }
+  .bodyContainer .img img {
+    max-width: 90vw;
+  }
+  .bodyContainer .nosotrosTexto {
+    padding: 15px;
+    width: 70%;
+  }
+  .footer .footer__redes {
+    width: 100%;
+  }
+  #carouselDesktop {
+    display: none;
+  }
+  #carouselMobile {
+    display: block;
+  }
+  .container__envios .envios {
+    max-width: 100vw;
+  }
+  .cardsContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+    padding: 20px;
+  }
+  .menuDesplegable {
+    margin: 70px;
+  }
+  .cardProducto {
+    height: 100%;
+    width: 100%;
+  }
+  .cardProducto:last-child {
+    display: none;
+  }
+  .cardProducto img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .bodyContainer .bodyContainer__header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menuDesplegable {
+    left: 125px;
+    top: 150px;
+    display: none;
+  }
+  .cardsContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+    padding: 20px;
+  }
+  .cardProducto {
+    height: 80%;
+    width: 80%;
+  }
+  .cardProducto:last-child {
+    display: none;
+  }
+  .cardProducto img {
+    height: 100%;
+    width: 100%;
+  }
+}
