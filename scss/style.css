@@ -489,7 +489,7 @@ img:hover {
 .cardProducto {
   -webkit-box-shadow: 0 1px 1px 0 rgba(7, 7, 7, 0.1);
           box-shadow: 0 1px 1px 0 rgba(7, 7, 7, 0.1);
-  height: 314px;
+ /*  height: 314px; */
   margin: 0 8px 16px;
   width: 224px;
   background-color: #28282b70;
@@ -520,6 +520,23 @@ img:hover {
   margin-bottom: 0;
   color: white;
 }
+.buttonBuy {
+  background-color: rgba(27, 4, 4, 0.726);
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;;
+  border-radius: 15px;
+  border-width: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+.buttonBuy:hover {
+  background-color: gray;
+}
+.buttonBuy:active {
+  background-color: black;
+  border-color: white;
+ }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
   nav .menu__bahia {
