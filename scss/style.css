@@ -73,7 +73,7 @@ dl {
   color: white;
   text-align: center;
   font-size: 50px;
-  padding: 25px;
+  padding-top: 45px;
 }
 
 .bodyContainer > p {
@@ -241,7 +241,7 @@ nav .menu__bahia {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 15px;
+  padding: 25px;
 }
 
 .tituloCatalogo {
@@ -249,7 +249,7 @@ nav .menu__bahia {
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   color: white;
   font-size: 50px;
-  padding: 25px;
+  padding-top: 45px;
 }
 
 .h1,
@@ -597,6 +597,16 @@ img:hover {
     height: 100%;
     width: 100%;
   }
+}
+.carritoImg {
+background-color: white;
+border-radius: 100%;
+padding: 5px;
+}
+
+.nav-item{
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
