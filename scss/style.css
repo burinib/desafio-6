@@ -520,7 +520,7 @@ img:hover {
   margin-bottom: 0;
   color: white;
 }
-.buttonBuy {
+.buttonBuy, #buttonClear {
   background-color: rgba(16, 7, 43, 0.507);
   color: white;
   font-size: 18px;
@@ -530,28 +530,45 @@ img:hover {
   padding: 8px;
   cursor: pointer;
 }
-.buttonBuy:hover {
+.buttonBuy:hover, #buttonClear:hover {
   background-color: gray;
 }
-.buttonBuy:active {
+.buttonBuy:active, #buttonClear:active{
   background-color: black;
   border-color: white;
  }
-
+ #buttonClear{
+  max-width: 250px;
+ }
  .productosDelCarrito{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
  }
 
  .product{
   color: white;
   font-size: 30px;
+  width: 180px;
   padding: 10px;
+ }
+ #sectionDeCarrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
  }
 
  .contenedorProduct{
   display: flex;
+  align-items: center;
+ }
+ .contenedorProduct img {
+  height: 270px;
+  width: 200px;
+  box-sizing: border-box;
+  background-color: #28282b70;
+  margin-bottom: 15px;
  }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -617,6 +634,7 @@ img:hover {
 #sectionDeCarrito {
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   min-height: 73.1vh;
+  
 }
 
 

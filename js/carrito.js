@@ -165,3 +165,11 @@ function agregarElementoAlCarrito(producto){
 for(let producto of Object.entries(carrito)){
     agregarElementoAlCarrito(producto);
 }
+
+let buttonVaciarCarrito = document.getElementById("buttonClear")
+function vaciarCarrito(){
+  localStorage.clear()
+  window.location.reload()
+}
+
+buttonVaciarCarrito.addEventListener("click", vaciarCarrito);
