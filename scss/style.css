@@ -46,11 +46,11 @@ dl {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .bodyContainer .bodyContainer__header {
@@ -58,8 +58,8 @@ dl {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 15px;
 }
 
@@ -68,8 +68,8 @@ dl {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   text-align: center;
   font-size: 50px;
@@ -95,8 +95,8 @@ dl {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-size: 1rem;
   color: white;
   display: flex;
@@ -118,8 +118,8 @@ dl {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .bodyContainer .bodyContainer__nav {
@@ -128,8 +128,8 @@ dl {
 
 .navbar-collapse {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -202,8 +202,8 @@ nav .menu__bahia {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   padding: 0.5rem;
   padding-top: 20px;
@@ -214,7 +214,7 @@ nav .menu__bahia {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: 50%;
 }
 
@@ -224,7 +224,7 @@ nav .menu__bahia {
 
 .footer .footer__redes li:hover {
   -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  transform: scale(1.25);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -239,8 +239,8 @@ nav .menu__bahia {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 25px;
 }
 
@@ -272,8 +272,8 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 15px;
 }
 
@@ -282,10 +282,10 @@ h6 {
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-grid-columns: (minmax(255px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-grid-columns: (minmax(255px, 1fr)) [auto-fill];
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
   gap: 10px;
 }
 
@@ -296,7 +296,7 @@ h6 {
 
 img:hover {
   -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  transform: scale(1.25);
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
 }
@@ -307,14 +307,14 @@ img:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   min-height: 90vh;
   background-size: cover;
   gap: 70px;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 }
 
 .container__envios h1 {
@@ -331,7 +331,7 @@ img:hover {
   border-radius: 2px;
   padding: 10px;
   -webkit-box-shadow: 6px 6px 0px -3px rgba(125, 125, 125, 0.43);
-          box-shadow: 6px 6px 0px -3px rgba(125, 125, 125, 0.43);
+  box-shadow: 6px 6px 0px -3px rgba(125, 125, 125, 0.43);
 }
 
 .container__envios .enviosTexto p {
@@ -340,14 +340,14 @@ img:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: -10px;
   padding: 0;
   color: white;
@@ -391,8 +391,8 @@ img:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 15px;
   background-image: url(../assets/images/fondo/fondoindex.jpg);
 }
@@ -403,18 +403,18 @@ img:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   background-size: cover;
   color: white;
   width: 100%;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 25px;
 }
 
@@ -478,18 +478,18 @@ img:hover {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   padding: 50px;
   padding-bottom: 10px;
 }
 
 .cardProducto {
   -webkit-box-shadow: 0 1px 1px 0 rgba(7, 7, 7, 0.1);
-          box-shadow: 0 1px 1px 0 rgba(7, 7, 7, 0.1);
- /*  height: 314px; */
+  box-shadow: 0 1px 1px 0 rgba(7, 7, 7, 0.1);
+  /*  height: 314px; */
   margin: 0 8px 16px;
   width: 224px;
   background-color: #28282b70;
@@ -498,14 +498,14 @@ img:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 10px;
 }
 
@@ -520,56 +520,67 @@ img:hover {
   margin-bottom: 0;
   color: white;
 }
-.buttonBuy, #buttonClear {
+.buttonBuy,
+#buttonClear {
   background-color: rgba(16, 7, 43, 0.507);
   color: white;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;;
+  font-family: "Roboto", sans-serif;
   border-radius: 15px;
   border-width: 5px;
   padding: 8px;
   cursor: pointer;
 }
-.buttonBuy:hover, #buttonClear:hover {
+.buttonBuy:hover,
+#buttonClear:hover {
   background-color: gray;
 }
-.buttonBuy:active, #buttonClear:active{
+.buttonBuy:active,
+#buttonClear:active {
   background-color: black;
   border-color: white;
- }
- #buttonClear{
+}
+#buttonClear {
   max-width: 250px;
- }
- .productosDelCarrito{
+}
+.productosDelCarrito {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
- }
+  justify-content: space-between;
+  min-height: 250px;
+}
 
- .product{
+.product {
   color: white;
   font-size: 30px;
   width: 180px;
   padding: 10px;
- }
- #sectionDeCarrito {
+}
+#sectionDeCarrito {
   display: flex;
   flex-direction: column;
   align-items: center;
- }
+}
 
- .contenedorProduct{
+.carrito {
+  background-color: slategray;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.contenedorProduct {
   display: flex;
   align-items: center;
- }
- .contenedorProduct img {
+}
+.contenedorProduct img {
   height: 270px;
   width: 200px;
   box-sizing: border-box;
   background-color: #28282b70;
   margin-bottom: 15px;
- }
+}
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
   nav .menu__bahia {
@@ -609,10 +620,10 @@ img:hover {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 1rem;
     padding: 20px;
   }
@@ -634,31 +645,36 @@ img:hover {
 #sectionDeCarrito {
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
   min-height: 73.1vh;
-  
 }
-
-
 
 .carritoImg {
-background-color: white;
-border-radius: 100%;
-padding: 5px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 5px;
 }
 
-.nav-item{
+.nav-item {
   display: flex;
   align-items: center;
+}
+
+.show{
+  display: block;
+}
+
+.no-show{
+  display: none;
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .bodyContainer .bodyContainer__header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .menuDesplegable {
     left: 125px;
@@ -669,10 +685,10 @@ padding: 5px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 1rem;
     padding: 20px;
   }

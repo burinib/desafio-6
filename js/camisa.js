@@ -3,121 +3,121 @@ const productos = [
     nombre: "camisa1",
     precio: 3590,
     src: "/camisa/camisa1.jpg",
-    id: "0",
+    id: "20",
   },
   {
     nombre: "camisa2",
     precio: 3590,
     src: "/camisa/camisa2.jpg",
-    id: "1",
+    id: "21",
   },
   {
     nombre: "camisa3",
     precio: 2990,
     src: "/camisa/camisa3.jpg",
-    id: "2",
+    id: "22",
   },
   {
     nombre: "camisa4",
     precio: 2990,
     src: "/camisa/camisa4.jpg",
-    id: "3",
+    id: "23",
   },
   {
     nombre: "camisa5",
     precio: 2990,
     src: "/camisa/camisa5.jpg",
-    id: "4",
+    id: "24",
   },
   {
     nombre: "camisa6",
     precio: 1990,
     src: "/camisa/camisa6.jpg",
-    id: "5",
+    id: "25",
   },
   {
     nombre: "camisa7",
     precio: 2350,
     src: "/camisa/camisa7.jpg",
-    id: "6",
+    id: "26",
   },
   {
     nombre: "camisa8",
     precio: 2990,
     src: "/camisa/camisa8.jpg",
-    id: "7",
+    id: "27",
   },
   {
     nombre: "camisa9",
     precio: 2790,
     src: "/camisa/camisa9.jpg",
-    id: "8",
+    id: "28",
   },
   {
     nombre: "camisa10",
     precio: 2390,
     src: "/camisa/camisa10.jpg",
-    id: "9",
+    id: "29",
   },
   {
     nombre: "camisa11",
     precio: 1990,
     src: "/camisa/camisa12.jpg",
-    id: "10",
+    id: "30",
   },
   {
     nombre: "camisa12",
     precio: 2350,
     src: "/camisa/camisa13.jpg",
-    id: "11",
+    id: "31",
   },
   {
     nombre: "camisa13",
     precio: 2990,
     src: "/camisa/camisa14.jpg",
-    id: "12",
+    id: "32",
   },
   {
     nombre: "camisa14",
     precio: 2790,
     src: "/camisa/camisa15.webp",
-    id: "13",
+    id: "33",
   },
   {
     nombre: "camisa15",
     precio: 2390,
     src: "/camisa/camisa16.webp",
-    id: "14",
+    id: "34",
   },
   {
     nombre: "camisa16",
     precio: 1990,
     src: "/camisa/camisa17.jpg",
-    id: "15",
+    id: "35",
   },
   {
     nombre: "camisa17",
     precio: 2350,
     src: "/camisa/camisa18.jpg",
-    id: "16",
+    id: "36",
   },
   {
     nombre: "camisa18",
     precio: 2990,
     src: "/camisa/camisa19.jpg",
-    id: "17",
+    id: "37",
   },
   {
     nombre: "camisa19",
     precio: 2790,
     src: "/camisa/camisa20.jpg",
-    id: "18",
+    id: "38",
   },
   {
     nombre: "camisa20",
     precio: 2390,
     src: "/camisa/camisa11.jpg",
-    id: "19",
+    id: "39",
   },
 ];
 
@@ -231,7 +231,7 @@ const compraDelUsuario = () => {
 
 const OPCIONES_CORRECTAS = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
-let buttonBuy = document.getElementsByClassName("buttonbuy");
+let buttonBuy = document.getElementsByClassName("buttonBuy");
 let buttonBuys = Array.from(buttonBuy);
 
 buttonBuys.forEach((botonCompra) => {
@@ -245,7 +245,7 @@ function buttonBuyAlert(boton) {
     ? JSON.parse(localStorage.getItem("carrito"))
     : {};
 
-  // if(localStorage.getItem("carrito"){
+    // if(localStorage.getItem("carrito"){
   //   carrito = JSON.parse(localStorage.getItem("carrito"))
   // } else {
   //   carrito = {}
@@ -264,4 +264,12 @@ function buttonBuyAlert(boton) {
   // TERCER PASO
   // Volvemos a guardar el localStorage con el carrito actualizado con esta compra.
   localStorage.setItem("carrito", JSON.stringify(carrito));
+  Swal.fire({
+    position: 'center',
+    icon: 'success',
+    title: 'Agregado con exito al carrito',
+    showConfirmButton: false,
+    timer: 1000
+  })
 }
+

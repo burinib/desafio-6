@@ -115,8 +115,8 @@ const productos = [
     },
     {
       nombre: "pantalon20",
-      precio: 16990
-      src:"/pantalon/pantalon20.jpg",
+      precio: 16990,
+      src:"/pantalon/pantalon20.jpg"
       id: "19",
     }
   ];

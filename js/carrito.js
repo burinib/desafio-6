@@ -1,4 +1,4 @@
-const abrigos = [
+const tienda = [
     {
       nombre: "abrigo1",
       precio: 3490,
@@ -119,14 +119,141 @@ const abrigos = [
       src: "/abrigo/abrigo5.jpg",
       id: "19"
     },
+    {
+      nombre: "camisa1",
+      precio: 3590,
+      src: "/camisa/camisa1.jpg",
+      id: "20",
+    },
+    {
+      nombre: "camisa2",
+      precio: 3590,
+      src: "/camisa/camisa2.jpg",
+      id: "21",
+    },
+    {
+      nombre: "camisa3",
+      precio: 2990,
+      src: "/camisa/camisa3.jpg",
+      id: "22",
+    },
+    {
+      nombre: "camisa4",
+      precio: 2990,
+      src: "/camisa/camisa4.jpg",
+      id: "23",
+    },
+    {
+      nombre: "camisa5",
+      precio: 2990,
+      src: "/camisa/camisa5.jpg",
+      id: "24",
+    },
+    {
+      nombre: "camisa6",
+      precio: 1990,
+      src: "/camisa/camisa6.jpg",
+      id: "25",
+    },
+    {
+      nombre: "camisa7",
+      precio: 2350,
+      src: "/camisa/camisa7.jpg",
+      id: "26",
+    },
+    {
+      nombre: "camisa8",
+      precio: 2990,
+      src: "/camisa/camisa8.jpg",
+      id: "27",
+    },
+    {
+      nombre: "camisa9",
+      precio: 2790,
+      src: "/camisa/camisa9.jpg",
+      id: "28",
+    },
+    {
+      nombre: "camisa10",
+      precio: 2390,
+      src: "/camisa/camisa10.jpg",
+      id: "29",
+    },
+    {
+      nombre: "camisa11",
+      precio: 1990,
+      src: "/camisa/camisa12.jpg",
+      id: "30",
+    },
+    {
+      nombre: "camisa12",
+      precio: 2350,
+      src: "/camisa/camisa13.jpg",
+      id: "31",
+    },
+    {
+      nombre: "camisa13",
+      precio: 2990,
+      src: "/camisa/camisa14.jpg",
+      id: "32",
+    },
+    {
+      nombre: "camisa14",
+      precio: 2790,
+      src: "/camisa/camisa15.webp",
+      id: "33",
+    },
+    {
+      nombre: "camisa15",
+      precio: 2390,
+      src: "/camisa/camisa16.webp",
+      id: "34",
+    },
+    {
+      nombre: "camisa16",
+      precio: 1990,
+      src: "/camisa/camisa17.jpg",
+      id: "35",
+    },
+    {
+      nombre: "camisa17",
+      precio: 2350,
+      src: "/camisa/camisa18.jpg",
+      id: "36",
+    },
+    {
+      nombre: "camisa18",
+      precio: 2990,
+      src: "/camisa/camisa19.jpg",
+      id: "37",
+    },
+    {
+      nombre: "camisa19",
+      precio: 2790,
+      src: "/camisa/camisa20.jpg",
+      id: "38",
+    },
+    {
+      nombre: "camisa20",
+      precio: 2390,
+      src: "/camisa/camisa11.jpg",
+      id: "39",
+    },
   ];
 
 let carrito = localStorage.getItem("carrito") ? JSON.parse(localStorage.getItem("carrito")) : {};
+let buttonClear = document.getElementById("buttonClear");
+
+if(Object.keys(carrito).length === 0){
+  buttonClear.style.display = "none"
+} else {
+  buttonClear.style.display = "block"
+}
 
 let productosDelCarrito = document.querySelector(".productosDelCarrito");
 
 function agregarElementoAlCarrito(producto){
-    let abrigo = abrigos[producto[0]];
+    let item = tienda[producto[0]];
 
     let nuevoProducto = document.createElement("div");
 
@@ -136,19 +263,17 @@ function agregarElementoAlCarrito(producto){
     let precioTotal = document.createElement("p");
     let imagenProducto = document.createElement("img");
 
-    nombreProducto.innerHTML = abrigo.nombre;
-    precioProducto.innerHTML = abrigo.precio;
-    precioTotal.innerHTML = abrigo.precio * producto[1];
+    nombreProducto.innerHTML = item.nombre;
+    precioProducto.innerHTML = item.precio;
+    precioTotal.innerHTML = item.precio * producto[1];
     cantidadProducto.innerHTML = producto[1];
-    imagenProducto.src = "../assets/images" + abrigo.src;
+    imagenProducto.src = "../assets/images" + item.src;
 
     nombreProducto.classList.add("product")
     precioProducto.classList.add("product")
     cantidadProducto.classList.add("product")
     precioTotal.classList.add("product")
     imagenProducto.classList.add("product")
-
-    console.log("nuevo", nuevoProducto)
 
     nuevoProducto.appendChild(imagenProducto);
     nuevoProducto.appendChild(nombreProducto);
