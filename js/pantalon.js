@@ -3,125 +3,124 @@ const productos = [
       nombre: "pantalon1",
       precio: 7590,
       src:"/pantalon/pantalon1.jpg", 
-      id: "0",
+      id: "40",
     },
     {
       nombre: "pantalon2",
       precio: 6990,
       src:"/pantalon/pantalon2.webp",
-      id: "1"
+      id: "41"
     },
     {
       nombre: "pantalon3",
       precio: 5990,
       src:"/pantalon/pantalon3.jpg", 
-      id: "2",
+      id: "42",
     },
     {
       nombre: "pantalon4",
       precio: 5890,
       src:"/pantalon/pantalon4.jpg", 
-      id: "3",
+      id: "43",
     },
     {
       nombre: "pantalon5",
       precio: 5900,
       src:"/pantalon/pantalon5.jpg", 
-      id: "4",
+      id: "44",
     },
     {
       nombre: "pantalon6",
       precio: 8940,
       src:"/pantalon/pantalon6.jpg", 
-      id: "5",
+      id: "45",
     },
     {
       nombre: "pantalon7",
       precio: 7590,
       src:"/pantalon/pantalon7.webp",
-      id: "6",
+      id: "46",
     },
     {
       nombre: "pantalon8",
       precio: 6990,
       src:"/pantalon/pantalon8.jpg", 
-      id: "7",
+      id: "47",
     },
     {
       nombre: "pantalon9",
       precio: 5990,
       src:"/pantalon/pantalon9.jpg", 
-      id: "8",
+      id: "48",
     },
     {
       nombre: "pantalon10",
       precio: 6990,
       src:"/pantalon/pantalon10.jpg",
-      id: "9",
+      id: "49",
     },
     {
       nombre: "pantalon11",
       precio: 8940,
       src:"/pantalon/pantalon11.jpg",
-      id: "10",
+      id: "50",
     },
     {
       nombre: "pantalon12",
       precio: 7590,
       src:"/pantalon/pantalon12.jpg",
-      id: "11",
+      id: "51",
     },
     {
       nombre: "pantalon13",
       precio: 6990,
       src:"/pantalon/pantalon13.jpg",
-      id: "12",
+      id: "52",
     },
     {
       nombre: "pantalon14",
       precio: 5990,
       src:"/pantalon/pantalon14.jpg",
-      id: "13",
+      id: "53",
     },
     {
       nombre: "pantalon15",
       precio: 6990,
       src:"/pantalon/pantalon15.jpg",
-      id: "14",
+      id: "54",
     },
     {
       nombre: "pantalon16",
       precio: 8490,
       src:"/pantalon/pantalon16.jpg",
-      id: "15",
+      id: "55",
     },
     {
       nombre: "pantalon17",
       precio: 7590,
       src:"/pantalon/pantalon17.jpg",
-      id: "16",
+      id: "56",
     },
     {
       nombre: "pantalon18",
       precio: 6990,
       src:"/pantalon/pantalon18.jpg",
-      id: "17",
+      id: "57",
     },
     {
       nombre: "pantalon19",
       precio: 5990,
       src:"/pantalon/pantalon19.jpg",
-      id: "18",
+      id: "58",
     },
     {
       nombre: "pantalon20",
       precio: 16990,
-      src:"/pantalon/pantalon20.jpg"
-      id: "19",
-    }
+      src:"/pantalon/pantalon20.jpg",
+      id: "59",
+    },
   ];
   
-
   const compraDelUsuario = () => {
       let compra = prompt("Seleccione un producto de la lista: \n" + 
       "1 : " + productos[0].nombre + " - $" + productos[0].precio + "\n" +
@@ -152,7 +151,7 @@ const productos = [
   const OPCIONES_CORRECTAS = [0, 1, 2, 3, 4, 5, 6, 7, 8];
   
 
- let buttonBuy 0 document.getElementsByClassName("buttonbuy");
+ let buttonBuy = document.getElementsByClassName("buttonbuy");
  let buttonBuys = Array.from(buttonBuy)
 
  buttonBuys.forEach(botonCompra => {
@@ -173,7 +172,7 @@ function buttonBuyAlert(boton) {
 
   // SEGUNDO PASO
   // Analizamos el objeto "carrito" que apunta al localStorage, para ver si en ese ID ya hay algo, sino lo iniciamos con un 1.
-  carrito[boton.id] ? carrito[boton.id]++ : carrito[boton.id] = 1;
+  carrito[boton.id] ? carrito[boton.id]++ : (carrito[boton.id] = 1);
 
   // if (carrito[boton.id]) {
   //   carrito[boton.id]++;
@@ -184,6 +183,13 @@ function buttonBuyAlert(boton) {
   // TERCER PASO
   // Volvemos a guardar el localStorage con el carrito actualizado con esta compra.
   localStorage.setItem("carrito", JSON.stringify(carrito));
+  Swal.fire({
+    position: 'center',
+    icon: 'success',
+    title: 'Agregado con exito al carrito',
+    showConfirmButton: false,
+    timer: 1000
+  })
 }
 
 

@@ -239,6 +239,126 @@ const tienda = [
       src: "/camisa/camisa11.jpg",
       id: "39",
     },
+    {
+      nombre: "pantalon1",
+      precio: 7590,
+      src:"/pantalon/pantalon1.jpg", 
+      id: "40",
+    },
+    {
+      nombre: "pantalon2",
+      precio: 6990,
+      src:"/pantalon/pantalon2.webp",
+      id: "41"
+    },
+    {
+      nombre: "pantalon3",
+      precio: 5990,
+      src:"/pantalon/pantalon3.jpg", 
+      id: "42",
+    },
+    {
+      nombre: "pantalon4",
+      precio: 5890,
+      src:"/pantalon/pantalon4.jpg", 
+      id: "43",
+    },
+    {
+      nombre: "pantalon5",
+      precio: 5900,
+      src:"/pantalon/pantalon5.jpg", 
+      id: "44",
+    },
+    {
+      nombre: "pantalon6",
+      precio: 8940,
+      src:"/pantalon/pantalon6.jpg", 
+      id: "45",
+    },
+    {
+      nombre: "pantalon7",
+      precio: 7590,
+      src:"/pantalon/pantalon7.webp",
+      id: "46",
+    },
+    {
+      nombre: "pantalon8",
+      precio: 6990,
+      src:"/pantalon/pantalon8.jpg", 
+      id: "47",
+    },
+    {
+      nombre: "pantalon9",
+      precio: 5990,
+      src:"/pantalon/pantalon9.jpg", 
+      id: "48",
+    },
+    {
+      nombre: "pantalon10",
+      precio: 6990,
+      src:"/pantalon/pantalon10.jpg",
+      id: "49",
+    },
+    {
+      nombre: "pantalon11",
+      precio: 8940,
+      src:"/pantalon/pantalon11.jpg",
+      id: "50",
+    },
+    {
+      nombre: "pantalon12",
+      precio: 7590,
+      src:"/pantalon/pantalon12.jpg",
+      id: "51",
+    },
+    {
+      nombre: "pantalon13",
+      precio: 6990,
+      src:"/pantalon/pantalon13.jpg",
+      id: "52",
+    },
+    {
+      nombre: "pantalon14",
+      precio: 5990,
+      src:"/pantalon/pantalon14.jpg",
+      id: "53",
+    },
+    {
+      nombre: "pantalon15",
+      precio: 6990,
+      src:"/pantalon/pantalon15.jpg",
+      id: "54",
+    },
+    {
+      nombre: "pantalon16",
+      precio: 8490,
+      src:"/pantalon/pantalon16.jpg",
+      id: "55",
+    },
+    {
+      nombre: "pantalon17",
+      precio: 7590,
+      src:"/pantalon/pantalon17.jpg",
+      id: "56",
+    },
+    {
+      nombre: "pantalon18",
+      precio: 6990,
+      src:"/pantalon/pantalon18.jpg",
+      id: "57",
+    },
+    {
+      nombre: "pantalon19",
+      precio: 5990,
+      src:"/pantalon/pantalon19.jpg",
+      id: "58",
+    },
+    {
+      nombre: "pantalon20",
+      precio: 16990,
+      src:"/pantalon/pantalon20.jpg",
+      id: "59",
+    },
   ];
 
 let carrito = localStorage.getItem("carrito") ? JSON.parse(localStorage.getItem("carrito")) : {};
