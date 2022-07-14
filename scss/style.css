@@ -564,7 +564,7 @@ img:hover {
 }
 
 .carrito {
-  background-color: slategray;
+  background-color: rgba(112, 128, 144, 0.477);
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
@@ -581,6 +581,30 @@ img:hover {
   background-color: #28282b70;
   margin-bottom: 15px;
 }
+#sectionDeCarrito {
+  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
+  min-height: 73.1vh;
+}
+
+.carritoImg {
+  background-color: white;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.show{
+  display: block;
+}
+
+.no-show{
+  display: none;
+}
+
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
   nav .menu__bahia {
@@ -641,30 +665,29 @@ img:hover {
     height: 100%;
     width: 100%;
   }
-}
-#sectionDeCarrito {
-  background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
-  min-height: 73.1vh;
+  .carrito {
+    max-width: 90%;
+    padding: 0;
+    padding-top: 15px;
+  }
+  .contenedorProduct {
+    max-width: 90%;
+  }
+  .product {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  img.product {
+    width: 125px;
+    height: auto;
+    background-color: unset;
+    border-radius: 25px;
+    
+  }
 }
 
-.carritoImg {
-  background-color: white;
-  border-radius: 100%;
-  padding: 5px;
-}
 
-.nav-item {
-  display: flex;
-  align-items: center;
-}
-
-.show{
-  display: block;
-}
-
-.no-show{
-  display: none;
-}
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .bodyContainer .bodyContainer__header {
@@ -675,6 +698,7 @@ img:hover {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    max-width: 100%;
   }
   .menuDesplegable {
     left: 125px;
@@ -703,4 +727,6 @@ img:hover {
     height: 100%;
     width: 100%;
   }
+
+
 }

@@ -30,9 +30,9 @@ async function agregarElementoAlCarrito(producto) {
   let imagenProducto = document.createElement("img");
 
   nombreProducto.innerHTML = item.nombre;
-  precioProducto.innerHTML = item.precio;
-  precioTotal.innerHTML = item.precio * producto[1];
-  cantidadProducto.innerHTML = producto[1];
+  precioProducto.innerHTML = "$" + item.precio;
+  precioTotal.innerHTML = "$" + item.precio * producto[1];
+  cantidadProducto.innerHTML = "Cant: " + producto[1];
   imagenProducto.src = "../assets/images" + item.src;
 
   nombreProducto.classList.add("product");
