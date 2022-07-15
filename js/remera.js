@@ -1,125 +1,126 @@
 const productos = [
-    {
-      nombre: "remera1",
-      precio: 1990,
-      src="/remera/remera1.jpg" 
-      id: "0",
-    },
-    {
-      nombre: "remera2",
-      precio: 2190,
-      src="/remera/remera2.jpg" 
-      id: "1",
-    },
-    {
-      nombre: "remera3",
-      precio: 1890,
-      src="/remera/remera3.jpg" 
-      id: "2",
-    },
-    {
-      nombre: "remera4",
-      precio: 2490,
-      src="/remera/remera4.jpg" 
-      id: "3",
-    },
-    {
-      nombre: "remera5",
-      precio: 1890,
-      src="/remera/remera5.jpg" 
-      id: "4",
-    },
-    {
-      nombre: "remera6",
-      precio: 2190,
-      src="/remera/remera6.jpg" 
-      id: "5",
-    },
-    {
-      nombre: "remera7",
-      precio: 1990,
-      src="/remera/remera7.jpg" 
-      id: "6",
-    },
-    {
-      nombre: "remera8",
-      precio: 2890,
-      src="/remera/remera8.jpg" 
-      id: "7",
-    },
-    {
-      nombre: "remera9",
-      precio: 2790,
-      src="/remera/remera9.jpg" 
-      id: "8",
-    },
-    {
-      nombre: "remera10",
-      precio: 2590,
-      src="/remera/remera10.jpg"
-      id: "9",
-    },
-    {
-      nombre: "remera11",
-      precio: 2190,
-      src="/remera/remera11.jpg"
-      id: "10",
-    },
-    {
-      nombre: "remera12",
-      precio: 1990,
-      src="/remera/remera12.jpg"
-      id: "11",
-    },
-    {
-      nombre: "remera13",
-      precio: 2890,
-      src="/remera/remera13.webp"
-      id: "12",
-    },
-    {
-      nombre: "remera14",
-      precio: 2790,
-      src="/remera/remera14.jpg"
-      id: "13",
-    },
-    {
-      nombre: "remera15",
-      precio: 2590,
-      src="/remera/remera15.jpg"
-      id: "14",
-    },
-    {
-      nombre: "remera16",
-      precio: 2190,
-      src="/remera/remera16.jpg"
-      id: "15",
-    },
-    {
-      nombre: "remera17",
-      precio: 1990,
-      src="/remera/remera17.webp"
-      id: "16",
-    },
-    {
-      nombre: "remera18",
-      precio: 2890,
-      src="/remera/remera18.jpg"
-      id: "17",
-    },
-    {
-      nombre: "remera19",
-      precio: 2790,
-      src="/remera/remera19.jpg"
-      id: "18",
-    },
-    {
-      nombre: "remera20",
-      precio: 2590,
-      src="/remera/remera20.jpg"
-      id: "19",
-    },
-  ];
+  {
+    nombre: "remera1",
+    precio: 1990,
+    src:"/remera/remera1.jpg", 
+    id: "60",
+  },
+  {
+    nombre: "remera2",
+    precio: 2190,
+    src:"/remera/remera2.jpg", 
+    id: "61",
+  },
+  {
+    nombre: "remera3",
+    precio: 1890,
+    src:"/remera/remera3.jpg", 
+    id: "62",
+  },
+  {
+    nombre: "remera4",
+    precio: 2490,
+    src:"/remera/remera4.jpg", 
+    id: "63",
+  },
+  {
+    nombre: "remera5",
+    precio: 1890,
+    src:"/remera/remera5.jpg", 
+    id: "64",
+  },
+  {
+    nombre: "remera6",
+    precio: 2190,
+    src:"/remera/remera6.jpg", 
+    id: "65",
+  },
+  {
+    nombre: "remera7",
+    precio: 1990,
+    src:"/remera/remera7.jpg", 
+    id: "66",
+  },
+  {
+    nombre: "remera8",
+    precio: 2890,
+    src:"/remera/remera8.jpg", 
+    id: "67",
+  },
+  {
+    nombre: "remera9",
+    precio: 2790,
+    src:"/remera/remera9.jpg", 
+    id: "68",
+  },
+  {
+    nombre: "remera10",
+    precio: 2590,
+    src:"/remera/remera10.jpg",
+    id: "69",
+  },
+  {
+    nombre: "remera11",
+    precio: 2190,
+    src:"/remera/remera11.jpg",
+    id: "70",
+  },
+  {
+    nombre: "remera12",
+    precio: 1990,
+    src:"/remera/remera12.jpg",
+    id: "71",
+  },
+  {
+    nombre: "remera13",
+    precio: 2890,
+    src:"/remera/remera13.webp",
+    id: "72",
+  },
+  {
+    nombre: "remera14",
+    precio: 2790,
+    src:"/remera/remera14.jpg",
+    id: "73",
+  },
+  {
+    nombre: "remera15",
+    precio: 2590,
+    src:"/remera/remera15.jpg",
+    id: "74",
+  },
+  {
+    nombre: "remera16",
+    precio: 2190,
+    src:"/remera/remera16.jpg",
+    id: "75",
+  },
+  {
+    nombre: "remera17",
+    precio: 1990,
+    src:"/remera/remera17.webp",
+    id: "76",
+  },
+  {
+    nombre: "remera18",
+    precio: 2890,
+    src:"/remera/remera18.jpg",
+    id: "77",
+  },
+  {
+    nombre: "remera19",
+    precio: 2790,
+    src:"/remera/remera19.jpg",
+    id: "78",
+  },
+  {
+    nombre: "remera20",
+    precio: 2590,
+    src:"/remera/remera20.jpg",
+    id: "79",
+  },
+];
+
   
 
 
@@ -149,12 +150,12 @@ const productos = [
       );
   
       return Number(compra);
-  }
+  };
   
   const OPCIONES_CORRECTAS = [0, 1, 2, 3, 4, 5, 6, 7, 8];
   
 
-   
+  
   
   
   let buttonBuy = document.getElementsByClassName("buttonBuy");
@@ -168,7 +169,9 @@ const productos = [
   function buttonBuyAlert(boton) {
     // PRIMER PASO
     // Buscamos el localStorage, si tiene algo se lo asignamos a "carrito", sino lo iniciamos como objeto vacio.
-    let carrito = localStorage.getItem("carrito") ? JSON.parse(localStorage.getItem("carrito")) : {};
+    let carrito = localStorage.getItem("carrito")
+    ? JSON.parse(localStorage.getItem("carrito")) 
+    : {};
 
     // if(localStorage.getItem("carrito"){
     //   carrito = JSON.parse(localStorage.getItem("carrito"))
@@ -178,7 +181,7 @@ const productos = [
 
     // SEGUNDO PASO
     // Analizamos el objeto "carrito" que apunta al localStorage, para ver si en ese ID ya hay algo, sino lo iniciamos con un 1.
-    carrito[boton.id] ? carrito[boton.id]++ : carrito[boton.id] = 1;
+    carrito[boton.id] ? carrito[boton.id]++ : (carrito[boton.id] = 1);
 
     // if (carrito[boton.id]) {
     //   carrito[boton.id]++;
@@ -189,5 +192,12 @@ const productos = [
     // TERCER PASO
     // Volvemos a guardar el localStorage con el carrito actualizado con esta compra.
     localStorage.setItem("carrito", JSON.stringify(carrito));
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Agregado con exito al carrito',
+      showConfirmButton: false,
+      timer: 1000
+    })
   }
   

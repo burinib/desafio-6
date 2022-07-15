@@ -513,6 +513,7 @@ img:hover {
   border: 1px solid grey;
   width: 200px;
   height: 270px;
+  border-radius: 25px;
 }
 
 .cardProducto > p {
@@ -580,6 +581,8 @@ img:hover {
   box-sizing: border-box;
   background-color: #28282b70;
   margin-bottom: 15px;
+  border-radius: 25px;
+
 }
 #sectionDeCarrito {
   background-image: url(../assets/images/fondo/fondoAbrigo.jpg);
@@ -666,7 +669,7 @@ img:hover {
     width: 100%;
   }
   .carrito {
-    max-width: 90%;
+    max-width: 90%; 
     padding: 0;
     padding-top: 15px;
   }
