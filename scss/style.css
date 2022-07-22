@@ -456,6 +456,26 @@ img:hover {
   width: 50%;
   margin: 6rem auto auto;
 }
+.enviarBorrar {
+  display: flex;
+    justify-content: space-evenly;
+
+}
+.enviarBorrar input {
+  border-radius: 15px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 10);
+  cursor: pointer;
+}
+.enviarBorrar input:hover {
+  background-color: gray;
+}
+.enviarBorrar input:active,
+#active {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: white;
+}
+
 
 #carouselMobile {
   display: none;
@@ -660,6 +680,7 @@ img:hover {
   .cardProducto {
     height: 100%;
     width: 100%;
+    border-radius: 25px;
   }
   .cardProducto:last-child {
     display: none;

@@ -32,6 +32,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('0IM3LQrhvG6g8V6eG')
+</script>
   </head>
   <body class="bodyContainer">
     <header class="positionStiky">
@@ -132,22 +138,12 @@
             />
           </div>
           <div>
-            <label for="Clave">Password</label>
-            <input
-              name="password"
-              type="password"
-              id="Clave"
-              placeholder="ingrese su Clave"
-              required
-            />
-          </div>
-          <div>
             <label for="multi">Comentario</label>
             <textarea name="multi" id="multi" cols="25" rows="5"></textarea>
           </div>
         </fieldset>
-        <div>
-          <input type="submit" value="Enviar ahora" />
+        <div class="enviarBorrar">
+          <input  type="submit" id="button" value="Enviar ahora" />
           <input type="reset" value="Borrar todo" />
         </div>
       </form>
@@ -193,5 +189,6 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+    <script src="../js/contacto.js"></script>
   </body>
 </html>

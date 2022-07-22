@@ -154,10 +154,6 @@ const productos = [
   
   const OPCIONES_CORRECTAS = [0, 1, 2, 3, 4, 5, 6, 7, 8];
   
-
-  
-  
-  
   let buttonBuy = document.getElementsByClassName("buttonBuy");
   let buttonBuys = Array.from(buttonBuy)
   
