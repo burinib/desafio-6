@@ -628,6 +628,20 @@ img:hover {
   display: none;
 }
 
+.carritoVaciarTotal {
+  display: flex;
+  justify-content: space-around;
+}
+#totalCarrito {
+  background-color: rgba(16, 7, 43, 0.507);
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 15px;
+  padding: 20px;
+  padding-right: 100px;
+}
+
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
   nav .menu__bahia {
