@@ -15,12 +15,18 @@ let carrito = localStorage.getItem("carrito")
 
 // OBTENEMOS LA REFERENCIA DEL BOTON DE VACIAR CARRITO  
 let buttonClear = document.getElementById("buttonClear");
+let carritoContenedor = document.querySelector(".carrito")
+let carritoVacio = document.querySelector(".carritoVacio")
 
 // DEFINIMOS EL BOTON DE VACIAR CARRITO COMO VISIBLE SI TIENE ELEMENTOS, O COMO OCULTO SI EL CARRITO ESTA VACIO
 if (Object.keys(carrito).length === 0) {
   buttonClear.style.display = "none";
+  carritoContenedor.style.display = "none";
+  carritoVacio.style.display = "block"
 } else {
   buttonClear.style.display = "block";
+  carritoContenedor.style.display = "block";
+  carritoVacio.style.display = "none"
 }
 
 // OBTENER EL CONTENEDOR DEL CARRITO DONDE VAMOS A PINTAR LOS PRODUCTOS

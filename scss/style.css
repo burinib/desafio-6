@@ -641,6 +641,13 @@ img:hover {
   padding: 20px;
   padding-right: 100px;
 }
+.carritoVacio {
+  background-color: rgba(7, 2, 2, 0.759);
+  color: white;
+  display: flex;
+  align-items: center;
+  
+}
 
 
 @media screen and (min-width: 0px) and (max-width: 576px) {

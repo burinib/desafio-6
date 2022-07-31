@@ -1,6 +1,6 @@
 [
   {
-    "nombre": "abrigo1",
+    "nombre": "Canguro ByN",
     "precio": 3490,
     "src": "/abrigo/buzo1.jpg",
     "id": "0"
@@ -12,229 +12,229 @@
     "id": "1"
   },
   {
-    "nombre": "abrigo3",
+    "nombre": "Sweatter blanco",
     "precio": 3490,
     "src": "/abrigo/buzo3.jpg",
     "id": "2"
   },
   {
-    "nombre": "abrigo4",
+    "nombre": "Canguro liso negro",
     "precio": 2590,
     "src": "/abrigo/buzo4.jpg",
     "id": "3"
   },
   {
-    "nombre": "abrigo5",
+    "nombre": "Sweatter gris polera",
     "precio": 3490,
     "src": "/abrigo/buzo5.jpg",
     "id": "4"
   },
   {
-    "nombre": "abrigo6",
+    "nombre": "Parca azul marino",
     "precio": 9990,
     "src": "/abrigo/parca1.jpg",
     "id": "5"
   },
   {
-    "nombre": "abrigo7",
+    "nombre": "Parca reversible",
     "precio": 10490,
     "src": "/abrigo/parca2.jpg",
     "id": "6"
   },
   {
-    "nombre": "abrigo8",
+    "nombre": "Parca beige",
     "precio": 12390,
     "src": "/abrigo/parca3.jpg",
     "id": "7"
   },
   {
-    "nombre": "abrigo9",
+    "nombre": "Parca negra",
     "precio": 8990,
     "src": "/abrigo/parca4.jpg",
     "id": "8"
   },
   {
-    "nombre": "abrigo10",
+    "nombre": "Parca militar",
     "precio": 11990,
     "src": "/abrigo/parca5.jpg",
     "id": "9"
   },
   {
-    "nombre": "abrigo11",
+    "nombre": "Camperon inflabe verde",
     "precio": 9990,
     "src": "/abrigo/abrigo6.webp",
     "id": "10"
   },
   {
-    "nombre": "abrigo12",
+    "nombre": "Campera inflable negra",
     "precio": 10490,
     "src": "/abrigo/abrigo7.webp",
     "id": "11"
   },
   {
-    "nombre": "abrigo13",
+    "nombre": "Parca tapado azul",
     "precio": 12390,
     "src": "/abrigo/abrigo8.webp",
     "id": "12"
   },
   {
-    "nombre": "abrigo14",
+    "nombre": "Parca tapado Marron",
     "precio": 8990,
     "src": "/abrigo/abrigo9.jpg",
     "id": "13"
   },
   {
-    "nombre": "abrigo15",
+    "nombre": "Camperon reversible Azul/Negro",
     "precio": 11990,
     "src": "/abrigo/abrigo10.jpg",
     "id": "14"
   },
   {
-    "nombre": "abrigo16",
+    "nombre": "Tapado Parca",
     "precio": 9990,
     "src": "/abrigo/abrigo1.jpg",
     "id": "15"
   },
   {
-    "nombre": "abrigo17",
+    "nombre": "Tapado clasico negro",
     "precio": 10490,
     "src": "/abrigo/abrigo2.jpg",
     "id": "16"
   },
   {
-    "nombre": "abrigo18",
+    "nombre": "Tapado largo negro",
     "precio": 12390,
     "src": "/abrigo/abrigo3.jpg",
     "id": "17"
   },
   {
-    "nombre": "abrigo19",
+    "nombre": "Tapado negro c/b",
     "precio": 8990,
     "src": "/abrigo/abrigo4.jpg",
     "id": "18"
   },
   {
-    "nombre": "abrigo20",
+    "nombre": "Tapado gris c/b",
     "precio": 11990,
     "src": "/abrigo/abrigo5.jpg",
     "id": "19"
   },
   {
-    "nombre": "camisa1",
+    "nombre": "camisa celeste ",
     "precio": 3590,
     "src": "/camisa/camisa1.jpg",
     "id": "20"
   },
   {
-    "nombre": "camisa2",
+    "nombre": "camisa blanca",
     "precio": 3590,
     "src": "/camisa/camisa2.jpg",
     "id": "21"
   },
   {
-    "nombre": "camisa3",
+    "nombre": "camisa azul",
     "precio": 2990,
     "src": "/camisa/camisa3.jpg",
     "id": "22"
   },
   {
-    "nombre": "camisa4",
+    "nombre": "camisa verde",
     "precio": 2990,
     "src": "/camisa/camisa4.jpg",
     "id": "23"
   },
   {
-    "nombre": "camisa5",
+    "nombre": "camisa azul M/C",
     "precio": 2990,
     "src": "/camisa/camisa5.jpg",
     "id": "24"
   },
   {
-    "nombre": "camisa6",
+    "nombre": "camisa roja",
     "precio": 1990,
     "src": "/camisa/camisa6.jpg",
     "id": "25"
   },
   {
-    "nombre": "camisa7",
+    "nombre": "camisa azul",
     "precio": 2350,
     "src": "/camisa/camisa7.jpg",
     "id": "26"
   },
   {
-    "nombre": "camisa8",
+    "nombre": "camisa verde",
     "precio": 2990,
     "src": "/camisa/camisa8.jpg",
     "id": "27"
   },
   {
-    "nombre": "camisa9",
+    "nombre": "camisa azul m/c",
     "precio": 2790,
     "src": "/camisa/camisa9.jpg",
     "id": "28"
   },
   {
-    "nombre": "camisa10",
+    "nombre": "camisa blanca",
     "precio": 2390,
     "src": "/camisa/camisa10.jpg",
     "id": "29"
   },
   {
-    "nombre": "camisa11",
+    "nombre": "camisa verde s/b",
     "precio": 1990,
     "src": "/camisa/camisa12.jpg",
     "id": "30"
   },
   {
-    "nombre": "camisa12",
+    "nombre": "camisa rayas b/a",
     "precio": 2350,
     "src": "/camisa/camisa13.jpg",
     "id": "31"
   },
   {
-    "nombre": "camisa13",
+    "nombre": "camisa celeste ",
     "precio": 2990,
     "src": "/camisa/camisa14.jpg",
     "id": "32"
   },
   {
-    "nombre": "camisa14",
+    "nombre": "camisa gris",
     "precio": 2790,
     "src": "/camisa/camisa15.webp",
     "id": "33"
   },
   {
-    "nombre": "camisa15",
+    "nombre": "camisa negra",
     "precio": 2390,
     "src": "/camisa/camisa16.webp",
     "id": "34"
   },
   {
-    "nombre": "camisa16",
+    "nombre": "camisa cuadros r/n",
     "precio": 1990,
     "src": "/camisa/camisa17.jpg",
     "id": "35"
   },
   {
-    "nombre": "camisa17",
+    "nombre": "camisa azul",
     "precio": 2350,
     "src": "/camisa/camisa18.jpg",
     "id": "36"
   },
   {
-    "nombre": "camisa18",
+    "nombre": "camisa blanca",
     "precio": 2990,
     "src": "/camisa/camisa19.jpg",
     "id": "37"
   },
   {
-    "nombre": "camisa19",
+    "nombre": "camisa verde militar",
     "precio": 2790,
     "src": "/camisa/camisa20.jpg",
     "id": "38"
   },
   {
-    "nombre": "camisa20",
+    "nombre": "camisa azul",
     "precio": 2390,
     "src": "/camisa/camisa11.jpg",
     "id": "39"
